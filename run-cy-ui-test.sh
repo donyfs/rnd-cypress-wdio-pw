@@ -1,6 +1,9 @@
 #!/bin/bash
 cd cypress
 
+echo "Reset database"
+echo "[]" > ../web-sample/users.json
+
 start_time=$(date +%s)
 echo "Test started at: $(date '+%Y-%m-%d %H:%M:%S')"
 
@@ -20,3 +23,6 @@ seconds=$((duration % 60))
 
 echo "Test duration: $duration seconds"
 echo "Test duration: ${hours}h ${minutes}m ${seconds}s"
+
+echo "Reset database"
+echo "[]" > ../web-sample/users.json
