@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test';
 import { faker } from '@faker-js/faker';
 
-test('user registration form test', async ({ page }) => {
-  for (let index = 1; index <= 10; index++) {
+for (let index = 1; index <= 10; index++) {
+  test('user registration form test ' + index, async ({ page }) => {
 
     const userData = {
       name: faker.person.fullName(),
@@ -24,6 +24,6 @@ test('user registration form test', async ({ page }) => {
     await expect(tableRow.locator('td:nth-child(1)')).toHaveText(userData.name);
     await expect(tableRow.locator('td:nth-child(2)')).toHaveText(userData.email);
     await expect(tableRow.locator('td:nth-child(3)')).toHaveText(userData.country);
-  }
-});
+  });
+}
 

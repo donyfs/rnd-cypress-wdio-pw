@@ -1,8 +1,8 @@
 import { faker } from '@faker-js/faker';
 
 describe('API User Registration', () => {
-  it('should successfully register users via API', async () => {
-    for (let index = 1; index <= 1000; index++) {
+  for (let index = 1; index <= 1000; index++) {
+    it('should successfully register users via API ' + index, async () => {
       const userData = {
         name: faker.person.fullName(),
         email: faker.internet.email(),
@@ -26,6 +26,6 @@ describe('API User Registration', () => {
       await expect(responseData).toHaveProperty('name', userData.name);
       await expect(responseData).toHaveProperty('email', userData.email);
       await expect(responseData).toHaveProperty('country', userData.country);
-    }
-  });
+    });
+  }
 }); 

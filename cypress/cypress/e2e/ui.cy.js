@@ -1,8 +1,8 @@
 import { faker } from '@faker-js/faker';
 
 describe('User Registration Form', () => {
-  it('should successfully submit registration form multiple times', () => {
-    for (let index = 1; index <= 10; index++) {
+  for (let index = 1; index <= 10; index++) {
+    it('user registration form test ' + index, () => {
       const userData = {
         name: faker.person.fullName(),
         email: faker.internet.email(),
@@ -24,6 +24,6 @@ describe('User Registration Form', () => {
         cy.get('td').eq(1).should('have.text', userData.email);
         cy.get('td').eq(2).should('have.text', userData.country);
       });
-    }
-  });
+    });
+  }
 }); 

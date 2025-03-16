@@ -1,8 +1,8 @@
 import { faker } from '@faker-js/faker';
 
 describe('User Registration Form', () => {
-  it('should successfully submit registration form multiple times', async () => {
-    for (let index = 1; index <= 10; index++) {
+  for (let index = 1; index <= 10; index++) {
+    it('should successfully submit registration form multiple times ' + index, async () => {
       const userData = {
         name: faker.person.fullName(),
         email: faker.internet.email(),
@@ -23,6 +23,6 @@ describe('User Registration Form', () => {
       await expect(await lastRow.$('td:nth-child(1)')).toHaveText(userData.name);
       await expect(await lastRow.$('td:nth-child(2)')).toHaveText(userData.email);
       await expect(await lastRow.$('td:nth-child(3)')).toHaveText(userData.country);
-    }
-  });
+    });
+  }
 }); 

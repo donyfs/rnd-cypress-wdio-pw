@@ -3,6 +3,7 @@
 /.pnp
 .pnp.js
 **/screenshots
+**/downloads
 
 # Testing
 /coverage

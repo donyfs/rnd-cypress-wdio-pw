@@ -1,8 +1,8 @@
 import { faker } from '@faker-js/faker';
 
 describe('API User Registration', () => {
-  it('should successfully register users via API', () => {
-    for (let index = 1; index <= 1000; index++) {
+  for (let index = 1; index <= 1000; index++) {
+    it('should successfully register users via API ' + index, () => {
       const userData = {
         name: faker.person.fullName(),
         email: faker.internet.email(),
@@ -24,6 +24,6 @@ describe('API User Registration', () => {
         expect(response.body).to.have.property('email', userData.email);
         expect(response.body).to.have.property('country', userData.country);
       });
-    }
-  });
+    });
+  }
 }); 
