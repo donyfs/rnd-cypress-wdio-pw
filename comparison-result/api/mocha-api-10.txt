@@ -1,0 +1,27 @@
+Reset database
+Test started at: 2025-03-16 20:57:10
+
+> proyek-test-api@1.0.0 test
+> mocha test/**/*.test.js --timeout 10000
+
+
+
+  API User Registration
+    ✔ should successfully register users via API 1 (69ms)
+    ✔ should successfully register users via API 2
+    ✔ should successfully register users via API 3
+    ✔ should successfully register users via API 4
+    ✔ should successfully register users via API 5
+    ✔ should successfully register users via API 6
+    ✔ should successfully register users via API 7
+    ✔ should successfully register users via API 8
+    ✔ should successfully register users via API 9
+    ✔ should successfully register users via API 10
+
+
+  10 passing (104ms)
+
+Test completed at: 2025-03-16 20:57:14
+Test duration: 4 seconds
+Test duration: 0h 0m 4s
+Reset database

@@ -1,0 +1,117 @@
+Reset database
+Test started at: 2025-03-16 20:57:32
+
+> proyek-test-api@1.0.0 test
+> mocha test/**/*.test.js --timeout 10000
+
+
+
+  API User Registration
+    ✔ should successfully register users via API 1
+    ✔ should successfully register users via API 2
+    ✔ should successfully register users via API 3
+    ✔ should successfully register users via API 4
+    ✔ should successfully register users via API 5
+    ✔ should successfully register users via API 6
+    ✔ should successfully register users via API 7
+    ✔ should successfully register users via API 8
+    ✔ should successfully register users via API 9
+    ✔ should successfully register users via API 10
+    ✔ should successfully register users via API 11
+    ✔ should successfully register users via API 12
+    ✔ should successfully register users via API 13
+    ✔ should successfully register users via API 14
+    ✔ should successfully register users via API 15
+    ✔ should successfully register users via API 16
+    ✔ should successfully register users via API 17
+    ✔ should successfully register users via API 18
+    ✔ should successfully register users via API 19
+    ✔ should successfully register users via API 20
+    ✔ should successfully register users via API 21
+    ✔ should successfully register users via API 22
+    ✔ should successfully register users via API 23
+    ✔ should successfully register users via API 24
+    ✔ should successfully register users via API 25
+    ✔ should successfully register users via API 26
+    ✔ should successfully register users via API 27
+    ✔ should successfully register users via API 28
+    ✔ should successfully register users via API 29
+    ✔ should successfully register users via API 30
+    ✔ should successfully register users via API 31
+    ✔ should successfully register users via API 32
+    ✔ should successfully register users via API 33
+    ✔ should successfully register users via API 34
+    ✔ should successfully register users via API 35
+    ✔ should successfully register users via API 36
+    ✔ should successfully register users via API 37
+    ✔ should successfully register users via API 38
+    ✔ should successfully register users via API 39
+    ✔ should successfully register users via API 40
+    ✔ should successfully register users via API 41
+    ✔ should successfully register users via API 42
+    ✔ should successfully register users via API 43
+    ✔ should successfully register users via API 44
+    ✔ should successfully register users via API 45
+    ✔ should successfully register users via API 46
+    ✔ should successfully register users via API 47
+    ✔ should successfully register users via API 48
+    ✔ should successfully register users via API 49
+    ✔ should successfully register users via API 50
+    ✔ should successfully register users via API 51
+    ✔ should successfully register users via API 52
+    ✔ should successfully register users via API 53
+    ✔ should successfully register users via API 54
+    ✔ should successfully register users via API 55
+    ✔ should successfully register users via API 56
+    ✔ should successfully register users via API 57
+    ✔ should successfully register users via API 58
+    ✔ should successfully register users via API 59
+    ✔ should successfully register users via API 60
+    ✔ should successfully register users via API 61
+    ✔ should successfully register users via API 62
+    ✔ should successfully register users via API 63
+    ✔ should successfully register users via API 64
+    ✔ should successfully register users via API 65
+    ✔ should successfully register users via API 66
+    ✔ should successfully register users via API 67
+    ✔ should successfully register users via API 68
+    ✔ should successfully register users via API 69
+    ✔ should successfully register users via API 70
+    ✔ should successfully register users via API 71
+    ✔ should successfully register users via API 72
+    ✔ should successfully register users via API 73
+    ✔ should successfully register users via API 74
+    ✔ should successfully register users via API 75
+    ✔ should successfully register users via API 76
+    ✔ should successfully register users via API 77
+    ✔ should successfully register users via API 78
+    ✔ should successfully register users via API 79
+    ✔ should successfully register users via API 80
+    ✔ should successfully register users via API 81
+    ✔ should successfully register users via API 82
+    ✔ should successfully register users via API 83
+    ✔ should successfully register users via API 84
+    ✔ should successfully register users via API 85
+    ✔ should successfully register users via API 86
+    ✔ should successfully register users via API 87
+    ✔ should successfully register users via API 88
+    ✔ should successfully register users via API 89
+    ✔ should successfully register users via API 90
+    ✔ should successfully register users via API 91
+    ✔ should successfully register users via API 92
+    ✔ should successfully register users via API 93
+    ✔ should successfully register users via API 94
+    ✔ should successfully register users via API 95
+    ✔ should successfully register users via API 96
+    ✔ should successfully register users via API 97
+    ✔ should successfully register users via API 98
+    ✔ should successfully register users via API 99
+    ✔ should successfully register users via API 100
+
+
+  100 passing (173ms)
+
+Test completed at: 2025-03-16 20:57:36
+Test duration: 4 seconds
+Test duration: 0h 0m 4s
+Reset database
