@@ -1,0 +1,25 @@
+Reset database
+Test started at: 2025-03-16 16:22:54
+
+Running 10 tests using 1 worker
+
+[1A[2K[1/10] [Google Chrome] › e2e\ui.spec.js:5:7 › user registration form test 1
+[1A[2K[2/10] [Google Chrome] › e2e\ui.spec.js:5:7 › user registration form test 2
+[1A[2K[3/10] [Google Chrome] › e2e\ui.spec.js:5:7 › user registration form test 3
+[1A[2K[4/10] [Google Chrome] › e2e\ui.spec.js:5:7 › user registration form test 4
+[1A[2K[5/10] [Google Chrome] › e2e\ui.spec.js:5:7 › user registration form test 5
+[1A[2K[6/10] [Google Chrome] › e2e\ui.spec.js:5:7 › user registration form test 6
+[1A[2K[7/10] [Google Chrome] › e2e\ui.spec.js:5:7 › user registration form test 7
+[1A[2K[8/10] [Google Chrome] › e2e\ui.spec.js:5:7 › user registration form test 8
+[1A[2K[9/10] [Google Chrome] › e2e\ui.spec.js:5:7 › user registration form test 9
+[1A[2K[10/10] [Google Chrome] › e2e\ui.spec.js:5:7 › user registration form test 10
+[1A[2K  10 passed (3.3s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
+Test completed at: 2025-03-16 16:22:59
+Test duration: 5 seconds
+Test duration: 0h 0m 5s
+Reset database

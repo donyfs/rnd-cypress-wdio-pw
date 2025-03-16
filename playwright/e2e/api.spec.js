@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { faker } from '@faker-js/faker';
 
-for (let index = 1; index <= 1000; index++) {
+for (let index = 1; index <= 5000; index++) {
   test('API user registration test ' + index, async ({ request }) => {
     const userData = {
       name: faker.person.fullName(),

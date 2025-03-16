@@ -1,7 +1,7 @@
 import { faker } from '@faker-js/faker';
 
 describe('API User Registration', () => {
-  for (let index = 1; index <= 1000; index++) {
+  for (let index = 1; index <= 5000; index++) {
     it('should successfully register users via API ' + index, async () => {
       const userData = {
         name: faker.person.fullName(),

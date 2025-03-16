@@ -1,0 +1,25 @@
+Reset database
+Test started at: 2025-03-16 16:55:54
+
+Running 10 tests using 1 worker
+
+[1A[2K[1/10] [Google Chrome] › e2e\api.spec.js:5:7 › API user registration test 1
+[1A[2K[2/10] [Google Chrome] › e2e\api.spec.js:5:7 › API user registration test 2
+[1A[2K[3/10] [Google Chrome] › e2e\api.spec.js:5:7 › API user registration test 3
+[1A[2K[4/10] [Google Chrome] › e2e\api.spec.js:5:7 › API user registration test 4
+[1A[2K[5/10] [Google Chrome] › e2e\api.spec.js:5:7 › API user registration test 5
+[1A[2K[6/10] [Google Chrome] › e2e\api.spec.js:5:7 › API user registration test 6
+[1A[2K[7/10] [Google Chrome] › e2e\api.spec.js:5:7 › API user registration test 7
+[1A[2K[8/10] [Google Chrome] › e2e\api.spec.js:5:7 › API user registration test 8
+[1A[2K[9/10] [Google Chrome] › e2e\api.spec.js:5:7 › API user registration test 9
+[1A[2K[10/10] [Google Chrome] › e2e\api.spec.js:5:7 › API user registration test 10
+[1A[2K  10 passed (1.2s)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
+Test completed at: 2025-03-16 16:55:58
+Test duration: 3 seconds
+Test duration: 0h 0m 3s
+Reset database

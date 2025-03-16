@@ -1,0 +1,218 @@
+Reset database
+Test started at: 2025-03-16 17:11:53
+
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        14.2.0                                                                         │
+  │ Browser:        Chrome 134 (headless)                                                          │
+  │ Node Version:   v22.14.0 (C:\nvm4w\nodejs\node.exe)                                            │
+  │ Specs:          1 found (api.cy.js)                                                            │
+  │ Searched:       D:\playground-code\rnd-cypress-wdio-pw\cypress\cypress\e2e\api.cy.js           │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  api.cy.js                                                                       (1 of 1)
+
+
+  API User Registration
+    √ should successfully register users via API 1 (196ms)
+    √ should successfully register users via API 2 (188ms)
+    √ should successfully register users via API 3 (190ms)
+    √ should successfully register users via API 4 (191ms)
+    √ should successfully register users via API 5 (131ms)
+    √ should successfully register users via API 6 (131ms)
+    √ should successfully register users via API 7 (132ms)
+    √ should successfully register users via API 8 (189ms)
+    √ should successfully register users via API 9 (131ms)
+    √ should successfully register users via API 10 (131ms)
+    √ should successfully register users via API 11 (74ms)
+    √ should successfully register users via API 12 (150ms)
+    √ should successfully register users via API 13 (161ms)
+    √ should successfully register users via API 14 (109ms)
+    √ should successfully register users via API 15 (168ms)
+    √ should successfully register users via API 16 (157ms)
+    √ should successfully register users via API 17 (170ms)
+    √ should successfully register users via API 18 (176ms)
+    √ should successfully register users via API 19 (252ms)
+    √ should successfully register users via API 20 (158ms)
+    √ should successfully register users via API 21 (74ms)
+    √ should successfully register users via API 22 (130ms)
+    √ should successfully register users via API 23 (90ms)
+    √ should successfully register users via API 24 (129ms)
+    √ should successfully register users via API 25 (207ms)
+    √ should successfully register users via API 26 (142ms)
+    √ should successfully register users via API 27 (143ms)
+    √ should successfully register users via API 28 (147ms)
+    √ should successfully register users via API 29 (128ms)
+    √ should successfully register users via API 30 (129ms)
+    √ should successfully register users via API 31 (153ms)
+    √ should successfully register users via API 32 (134ms)
+    √ should successfully register users via API 33 (130ms)
+    √ should successfully register users via API 34 (133ms)
+    √ should successfully register users via API 35 (133ms)
+    √ should successfully register users via API 36 (164ms)
+    √ should successfully register users via API 37 (223ms)
+Reset database
+Test started at: 2025-03-16 17:14:34
+
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        14.2.0                                                                         │
+  │ Browser:        Chrome 134 (headless)                                                          │
+  │ Node Version:   v22.14.0 (C:\nvm4w\nodejs\node.exe)                                            │
+  │ Specs:          1 found (api.cy.js)                                                            │
+  │ Searched:       D:\playground-code\rnd-cypress-wdio-pw\cypress\cypress\e2e\api.cy.js           │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  api.cy.js                                                                       (1 of 1)
+
+
+  API User Registration
+    √ should successfully register users via API 1 (46ms)
+    √ should successfully register users via API 2 (31ms)
+    √ should successfully register users via API 3 (22ms)
+    √ should successfully register users via API 4 (26ms)
+    √ should successfully register users via API 5 (29ms)
+    √ should successfully register users via API 6 (31ms)
+    √ should successfully register users via API 7 (27ms)
+    √ should successfully register users via API 8 (23ms)
+    √ should successfully register users via API 9 (23ms)
+    √ should successfully register users via API 10 (26ms)
+    √ should successfully register users via API 11 (27ms)
+    √ should successfully register users via API 12 (31ms)
+    √ should successfully register users via API 13 (26ms)
+    √ should successfully register users via API 14 (22ms)
+    √ should successfully register users via API 15 (30ms)
+    √ should successfully register users via API 16 (33ms)
+    √ should successfully register users via API 17 (25ms)
+    √ should successfully register users via API 18 (46ms)
+    √ should successfully register users via API 19 (27ms)
+    √ should successfully register users via API 20 (34ms)
+    √ should successfully register users via API 21 (27ms)
+    √ should successfully register users via API 22 (30ms)
+    √ should successfully register users via API 23 (21ms)
+    √ should successfully register users via API 24 (28ms)
+    √ should successfully register users via API 25 (23ms)
+    √ should successfully register users via API 26 (27ms)
+    √ should successfully register users via API 27 (23ms)
+    √ should successfully register users via API 28 (21ms)
+    √ should successfully register users via API 29 (28ms)
+    √ should successfully register users via API 30 (25ms)
+    √ should successfully register users via API 31 (28ms)
+    √ should successfully register users via API 32 (22ms)
+    √ should successfully register users via API 33 (21ms)
+    √ should successfully register users via API 34 (29ms)
+    √ should successfully register users via API 35 (21ms)
+    √ should successfully register users via API 36 (30ms)
+    √ should successfully register users via API 37 (29ms)
+    √ should successfully register users via API 38 (28ms)
+    √ should successfully register users via API 39 (27ms)
+    √ should successfully register users via API 40 (24ms)
+    √ should successfully register users via API 41 (25ms)
+    √ should successfully register users via API 42 (33ms)
+    √ should successfully register users via API 43 (29ms)
+    √ should successfully register users via API 44 (22ms)
+    √ should successfully register users via API 45 (22ms)
+    √ should successfully register users via API 46 (23ms)
+    √ should successfully register users via API 47 (31ms)
+    √ should successfully register users via API 48 (30ms)
+    √ should successfully register users via API 49 (23ms)
+    √ should successfully register users via API 50 (23ms)
+    √ should successfully register users via API 51 (24ms)
+    √ should successfully register users via API 52 (26ms)
+    √ should successfully register users via API 53 (32ms)
+    √ should successfully register users via API 54 (30ms)
+    √ should successfully register users via API 55 (23ms)
+    √ should successfully register users via API 56 (23ms)
+    √ should successfully register users via API 57 (23ms)
+    √ should successfully register users via API 58 (25ms)
+    √ should successfully register users via API 59 (28ms)
+    √ should successfully register users via API 60 (21ms)
+    √ should successfully register users via API 61 (29ms)
+    √ should successfully register users via API 62 (23ms)
+    √ should successfully register users via API 63 (30ms)
+    √ should successfully register users via API 64 (31ms)
+    √ should successfully register users via API 65 (28ms)
+    √ should successfully register users via API 66 (22ms)
+    √ should successfully register users via API 67 (29ms)
+    √ should successfully register users via API 68 (22ms)
+    √ should successfully register users via API 69 (31ms)
+    √ should successfully register users via API 70 (30ms)
+    √ should successfully register users via API 71 (22ms)
+    √ should successfully register users via API 72 (22ms)
+    √ should successfully register users via API 73 (25ms)
+    √ should successfully register users via API 74 (26ms)
+    √ should successfully register users via API 75 (23ms)
+    √ should successfully register users via API 76 (24ms)
+    √ should successfully register users via API 77 (23ms)
+    √ should successfully register users via API 78 (28ms)
+    √ should successfully register users via API 79 (22ms)
+    √ should successfully register users via API 80 (27ms)
+    √ should successfully register users via API 81 (22ms)
+    √ should successfully register users via API 82 (30ms)
+    √ should successfully register users via API 83 (21ms)
+    √ should successfully register users via API 84 (28ms)
+    √ should successfully register users via API 85 (21ms)
+    √ should successfully register users via API 86 (26ms)
+    √ should successfully register users via API 87 (61ms)
+    √ should successfully register users via API 88 (53ms)
+    √ should successfully register users via API 89 (64ms)
+    √ should successfully register users via API 90 (76ms)
+    √ should successfully register users via API 91 (31ms)
+    √ should successfully register users via API 92 (24ms)
+    √ should successfully register users via API 93 (22ms)
+    √ should successfully register users via API 94 (22ms)
+    √ should successfully register users via API 95 (24ms)
+    √ should successfully register users via API 96 (29ms)
+    √ should successfully register users via API 97 (21ms)
+    √ should successfully register users via API 98 (32ms)
+    √ should successfully register users via API 99 (30ms)
+    √ should successfully register users via API 100 (28ms)
+
+
+  100 passing (4s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        100                                                                              │
+  │ Passing:      100                                                                              │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     3 seconds                                                                        │
+  │ Spec Ran:     api.cy.js                                                                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  api.cy.js                                00:03      100      100        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        00:03      100      100        -        -        -  
+
+Test completed at: 2025-03-16 17:14:48
+Test duration: 14 seconds
+Test duration: 0h 0m 14s
+Reset database

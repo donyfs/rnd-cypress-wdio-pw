@@ -1,0 +1,68 @@
+Reset database
+Test started at: 2025-03-16 17:14:57
+
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        14.2.0                                                                         │
+  │ Browser:        Chrome 134 (headless)                                                          │
+  │ Node Version:   v22.14.0 (C:\nvm4w\nodejs\node.exe)                                            │
+  │ Specs:          1 found (api.cy.js)                                                            │
+  │ Searched:       D:\playground-code\rnd-cypress-wdio-pw\cypress\cypress\e2e\api.cy.js           │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  api.cy.js                                                                       (1 of 1)
+
+
+  API User Registration
+    √ should successfully register users via API 1 (38ms)
+    √ should successfully register users via API 2 (23ms)
+    √ should successfully register users via API 3 (15ms)
+    √ should successfully register users via API 4 (14ms)
+    √ should successfully register users via API 5 (15ms)
+    √ should successfully register users via API 6 (15ms)
+    √ should successfully register users via API 7 (14ms)
+    √ should successfully register users via API 8 (14ms)
+    √ should successfully register users via API 9 (15ms)
+    √ should successfully register users via API 10 (14ms)
+
+
+  10 passing (289ms)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        10                                                                               │
+  │ Passing:      10                                                                               │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     api.cy.js                                                                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  api.cy.js                                291ms       10       10        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        291ms       10       10        -        -        -  
+
+Test completed at: 2025-03-16 17:15:07
+Test duration: 10 seconds
+Test duration: 0h 0m 10s
+Reset database

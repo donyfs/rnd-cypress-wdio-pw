@@ -1,0 +1,158 @@
+Reset database
+Test started at: 2025-03-16 16:07:49
+
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        14.2.0                                                                         │
+  │ Browser:        Chrome 134 (headless)                                                          │
+  │ Node Version:   v22.14.0 (C:\nvm4w\nodejs\node.exe)                                            │
+  │ Specs:          1 found (ui.cy.js)                                                             │
+  │ Searched:       D:\playground-code\rnd-cypress-wdio-pw\cypress\cypress\e2e\ui.cy.js            │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  ui.cy.js                                                                        (1 of 1)
+
+
+  User Registration Form
+    √ user registration form test 1 (976ms)
+    √ user registration form test 2 (1063ms)
+    √ user registration form test 3 (1126ms)
+    √ user registration form test 4 (1115ms)
+    √ user registration form test 5 (1157ms)
+    √ user registration form test 6 (1172ms)
+    √ user registration form test 7 (999ms)
+    √ user registration form test 8 (1271ms)
+    √ user registration form test 9 (999ms)
+    √ user registration form test 10 (1287ms)
+    √ user registration form test 11 (1091ms)
+    √ user registration form test 12 (1162ms)
+    √ user registration form test 13 (1090ms)
+    √ user registration form test 14 (1023ms)
+    √ user registration form test 15 (1067ms)
+    √ user registration form test 16 (1103ms)
+    √ user registration form test 17 (1031ms)
+    √ user registration form test 18 (1363ms)
+    √ user registration form test 19 (1137ms)
+    √ user registration form test 20 (1104ms)
+    √ user registration form test 21 (1047ms)
+    √ user registration form test 22 (1049ms)
+    √ user registration form test 23 (1460ms)
+    √ user registration form test 24 (1141ms)
+    √ user registration form test 25 (1043ms)
+    √ user registration form test 26 (1060ms)
+    √ user registration form test 27 (1078ms)
+    √ user registration form test 28 (1091ms)
+    √ user registration form test 29 (1159ms)
+    √ user registration form test 30 (1099ms)
+    √ user registration form test 31 (905ms)
+    √ user registration form test 32 (1616ms)
+    √ user registration form test 33 (1136ms)
+    √ user registration form test 34 (960ms)
+    √ user registration form test 35 (1200ms)
+    √ user registration form test 36 (1047ms)
+    √ user registration form test 37 (983ms)
+    √ user registration form test 38 (1102ms)
+    √ user registration form test 39 (1097ms)
+    √ user registration form test 40 (1144ms)
+    √ user registration form test 41 (1281ms)
+    √ user registration form test 42 (1108ms)
+    √ user registration form test 43 (1132ms)
+    √ user registration form test 44 (1113ms)
+    √ user registration form test 45 (989ms)
+    √ user registration form test 46 (1361ms)
+    √ user registration form test 47 (1093ms)
+    √ user registration form test 48 (1322ms)
+    √ user registration form test 49 (1165ms)
+    √ user registration form test 50 (1220ms)
+    √ user registration form test 51 (922ms)
+    √ user registration form test 52 (1067ms)
+    √ user registration form test 53 (1035ms)
+    √ user registration form test 54 (1329ms)
+    √ user registration form test 55 (1020ms)
+    √ user registration form test 56 (1020ms)
+    √ user registration form test 57 (1070ms)
+    √ user registration form test 58 (1023ms)
+    √ user registration form test 59 (1269ms)
+    √ user registration form test 60 (1162ms)
+    √ user registration form test 61 (957ms)
+    √ user registration form test 62 (1199ms)
+    √ user registration form test 63 (1099ms)
+    √ user registration form test 64 (1368ms)
+    √ user registration form test 65 (956ms)
+    √ user registration form test 66 (1185ms)
+    √ user registration form test 67 (1089ms)
+    √ user registration form test 68 (1068ms)
+    √ user registration form test 69 (1026ms)
+    √ user registration form test 70 (1254ms)
+    √ user registration form test 71 (1131ms)
+    √ user registration form test 72 (1092ms)
+    √ user registration form test 73 (1116ms)
+    √ user registration form test 74 (1249ms)
+    √ user registration form test 75 (1050ms)
+    √ user registration form test 76 (1107ms)
+    √ user registration form test 77 (1026ms)
+    √ user registration form test 78 (1187ms)
+    √ user registration form test 79 (1270ms)
+    √ user registration form test 80 (1134ms)
+    √ user registration form test 81 (1243ms)
+    √ user registration form test 82 (1192ms)
+    √ user registration form test 83 (1135ms)
+    √ user registration form test 84 (1166ms)
+    √ user registration form test 85 (1266ms)
+    √ user registration form test 86 (1117ms)
+    √ user registration form test 87 (1165ms)
+    √ user registration form test 88 (1136ms)
+    √ user registration form test 89 (1311ms)
+    √ user registration form test 90 (1252ms)
+    √ user registration form test 91 (1471ms)
+    √ user registration form test 92 (1160ms)
+    √ user registration form test 93 (1235ms)
+    √ user registration form test 94 (1211ms)
+    √ user registration form test 95 (1218ms)
+    √ user registration form test 96 (1159ms)
+    √ user registration form test 97 (1201ms)
+    √ user registration form test 98 (1377ms)
+    √ user registration form test 99 (1195ms)
+    √ user registration form test 100 (1344ms)
+
+
+  100 passing (2m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        100                                                                              │
+  │ Passing:      100                                                                              │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     1 minute, 59 seconds                                                             │
+  │ Spec Ran:     ui.cy.js                                                                         │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  ui.cy.js                                 01:59      100      100        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        01:59      100      100        -        -        -  
+
+Test completed at: 2025-03-16 16:09:57
+Test duration: 128 seconds
+Test duration: 0h 2m 8s
+Reset database

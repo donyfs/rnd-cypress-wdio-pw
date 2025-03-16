@@ -1,0 +1,187 @@
+Reset database
+Test started at: 2025-03-16 16:53:03
+
+Execution of 1 workers started at 2025-03-16T09:53:05.777Z
+
+2025-03-16T09:53:05.788Z INFO @wdio/cli:launcher: Run onPrepare hook
+2025-03-16T09:53:05.789Z INFO @wdio/utils: Setting up browser driver for: chrome@stable
+2025-03-16T09:53:05.790Z INFO @wdio/utils: Setting up browser binaries for: chrome@stable
+2025-03-16T09:53:05.793Z INFO webdriver: Using Chromedriver v134.0.6998.89 from cache directory C:\Users\62896\AppData\Local\Temp
+2025-03-16T09:53:05.794Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2025-03-16T09:53:05.795Z INFO @wdio/local-runner: Start worker 0-0 with arg: run ./wdio.conf.js --spec test/specs/api.spec.js
+[0-0] 2025-03-16T09:53:06.641Z INFO @wdio/local-runner: Run worker command: run
+[0-0] RUNNING in chrome - file:///D:/playground-code/rnd-cypress-wdio-pw/wdio/test/specs/api.spec.js
+[0-0] 2025-03-16T09:53:06.919Z INFO webdriver: Initiate new session using the WebDriver protocol
+[0-0] 2025-03-16T09:53:07.143Z INFO webdriver: Using Chromedriver v134.0.6998.89 from cache directory C:\Users\62896\AppData\Local\Temp
+[0-0] 2025-03-16T09:53:07.167Z INFO chromedriver: Starting ChromeDriver 134.0.6998.89 (b623489a994ecb8df7381fcceb54cfd3aafc9c3c-refs/branch-heads/6998@{#1899}) on port 57150
+[0-0] 2025-03-16T09:53:07.167Z INFO chromedriver: Remote connections are allowed by an allowlist (0.0.0.0).
+[0-0] 2025-03-16T09:53:07.167Z INFO chromedriver: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[0-0] 2025-03-16T09:53:07.170Z INFO chromedriver: ChromeDriver was started successfully on port 57150.
+[0-0] 2025-03-16T09:53:08.172Z INFO @wdio/utils: Started Chromedriver v134.0.6998.89 with params --port=57150 --allowed-origins=* --allowed-ips=0.0.0.0 in 1038ms on port 57150
+[0-0] 2025-03-16T09:53:08.174Z INFO webdriver: [POST] http://localhost:57150/session
+[0-0] 2025-03-16T09:53:08.175Z INFO webdriver: DATA {
+[0-0]   capabilities: {
+[0-0]     alwaysMatch: {
+[0-0]       browserName: 'chrome',
+[0-0]       'goog:chromeOptions': [Object],
+[0-0]       webSocketUrl: true,
+[0-0]       unhandledPromptBehavior: 'ignore'
+[0-0]     },
+[0-0]     firstMatch: [ {} ]
+[0-0]   }
+[0-0] }
+[0-0] 2025-03-16T09:53:08.786Z INFO webdriver: Register BiDi handler for session with id 1e726f150aa4296f86f37db9e7f2c49c
+[0-0] 2025-03-16T09:53:08.787Z INFO webdriver: Connect to webSocketUrl ws://127.0.0.1:57150/session/1e726f150aa4296f86f37db9e7f2c49c
+[0-0] 2025-03-16T09:53:08.794Z INFO webdriver: Connected session to Bidi protocol
+[0-0] 2025-03-16T09:53:08.795Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.contextCreated"]}
+[0-0] 2025-03-16T09:53:08.796Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["log.entryAdded","browsingContext.navigationStarted"]}
+[0-0] 2025-03-16T09:53:08.796Z INFO webdriver: BIDI COMMAND script.addPreloadScript { functionDeclaration: <PreloadScript[1319 bytes]>, contexts: undefined }
+[0-0] 2025-03-16T09:53:08.797Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.navigationStarted","browsingContext.fragmentNavigated","network.responseCompleted","network.beforeRequestSent","network.fetchError"]}
+[0-0] 2025-03-16T09:53:08.797Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.userPromptOpened"]}
+[0-0] 2025-03-16T09:53:08.797Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.navigationStarted"]}
+[0-0] 2025-03-16T09:53:08.798Z INFO webdriver: COMMAND getWindowHandle()
+[0-0] 2025-03-16T09:53:08.798Z INFO webdriver: Connected to WebDriver Bidi interface at ws://127.0.0.1:57150/session/1e726f150aa4296f86f37db9e7f2c49c
+[0-0] 2025-03-16T09:53:08.798Z INFO webdriver: BIDI COMMAND browsingContext.getTree {}
+[0-0] 2025-03-16T09:53:08.798Z INFO webdriver: [GET] http://localhost:57150/session/1e726f150aa4296f86f37db9e7f2c49c/window
+[0-0] 2025-03-16T09:53:08.800Z INFO webdriver: RESULT 4F5B47A11FAF1162EAE931A02FBDEB2B
+[0-0] 2025-03-16T09:53:08.805Z INFO webdriverio:PolyfillManager: Adding polyfill script to context with id 4F5B47A11FAF1162EAE931A02FBDEB2B
+[0-0] 2025-03-16T09:53:08.805Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[442 bytes] webdriverioPolyfill>","target":{"children":null,"clientWindow":"","context":"4F5B47A11FAF1162EAE931A02FBDEB2B","originalOpener":null,"parent":null,"url":"about:blank","userContext":"default"},"awaitPromise":false}
+[0-0] 2025-03-16T09:53:08.806Z INFO webdriver: BIDI COMMAND script.addPreloadScript { functionDeclaration: <PreloadScript[442 bytes]>, contexts: ["4F5B47A11FAF1162EAE931A02FBDEB2B"] }
+[0-0] 2025-03-16T09:53:08.806Z INFO webdriver: BIDI RESULT {"id":1,"result":{"subscription":"f03241ce-6b68-4870-83d0-e522209d939b"},"type":"success"}
+[0-0] 2025-03-16T09:53:08.807Z INFO webdriver: BIDI RESULT {"id":2,"result":{"subscription":"f8b4bbc3-8b5e-47ed-a657-ee70fb9fdfdb"},"type":"success"}
+[0-0] 2025-03-16T09:53:08.807Z INFO webdriver: BIDI RESULT {"id":4,"result":{"subscription":"f48eb5d8-2e33-4c41-9af0-ee66863af25f"},"type":"success"}
+[0-0] 2025-03-16T09:53:08.807Z INFO webdriver: BIDI RESULT {"id":5,"result":{"subscription":"fe2b1c29-1ee2-402f-8bd4-b0deeb3cbfcc"},"type":"success"}
+[0-0] 2025-03-16T09:53:08.807Z INFO webdriver: BIDI RESULT {"id":6,"result":{"subscription":"93dcc5e7-7fde-4542-88d0-f0d4d26b7c03"},"type":"success"}
+[0-0] 2025-03-16T09:53:08.807Z INFO webdriver: BIDI RESULT {"id":7,"result":{"contexts":[{"children":[],"clientWindow":"","context":"4F5B47A11FAF1162EAE931A02FBDEB2B","originalOpener":null,"parent":null,"url":"about:blank","userContext":"default"}]},"type":"success"}
+[0-0] 2025-03-16T09:53:08.811Z INFO webdriver: BIDI RESULT {"id":3,"result":{"script":"ce61ab88-1c1d-465c-802b-7052724467b5"},"type":"success"}
+[0-0] 2025-03-16T09:53:08.817Z INFO webdriver: BIDI RESULT {"id":8,"result":{"realm":"5105510445483371824.2010289640896132568","result":{"type":"undefined"},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:53:08.818Z INFO webdriver: BIDI RESULT {"id":9,"result":{"script":"31794be7-8c90-4c5d-8a29-8aa568d9a8f0"},"type":"success"}
+[0-0] 2025-03-16T09:53:08.993Z INFO webdriver: COMMAND deleteSession()
+[0-0] 2025-03-16T09:53:08.993Z INFO webdriver: [DELETE] http://localhost:57150/session/1e726f150aa4296f86f37db9e7f2c49c
+[0-0] 2025-03-16T09:53:09.020Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:53:09.021Z INFO webdriver: Close Bidi connection to ws://127.0.0.1:57150/session/1e726f150aa4296f86f37db9e7f2c49c
+[0-0] 2025-03-16T09:53:09.022Z INFO webdriver: Kill driver process with PID 42016
+[0-0] PASSED in chrome - file:///D:/playground-code/rnd-cypress-wdio-pw/wdio/test/specs/api.spec.js
+2025-03-16T09:53:09.163Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+
+ "spec" Reporter:
+------------------------------------------------------------------
+[chrome 134.0.6998.89 windows #0-0] Running: chrome (v134.0.6998.89) on windows
+[chrome 134.0.6998.89 windows #0-0] Session ID: 1e726f150aa4296f86f37db9e7f2c49c
+[chrome 134.0.6998.89 windows #0-0]
+[chrome 134.0.6998.89 windows #0-0] » \test\specs\api.spec.js
+[chrome 134.0.6998.89 windows #0-0] API User Registration
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 1
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 2
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 3
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 4
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 5
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 6
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 7
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 8
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 9
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 10
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 11
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 12
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 13
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 14
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 15
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 16
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 17
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 18
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 19
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 20
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 21
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 22
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 23
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 24
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 25
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 26
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 27
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 28
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 29
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 30
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 31
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 32
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 33
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 34
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 35
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 36
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 37
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 38
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 39
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 40
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 41
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 42
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 43
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 44
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 45
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 46
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 47
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 48
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 49
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 50
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 51
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 52
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 53
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 54
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 55
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 56
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 57
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 58
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 59
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 60
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 61
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 62
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 63
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 64
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 65
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 66
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 67
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 68
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 69
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 70
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 71
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 72
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 73
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 74
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 75
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 76
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 77
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 78
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 79
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 80
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 81
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 82
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 83
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 84
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 85
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 86
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 87
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 88
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 89
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 90
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 91
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 92
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 93
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 94
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 95
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 96
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 97
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 98
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 99
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully register users via API 100
+[chrome 134.0.6998.89 windows #0-0]
+[chrome 134.0.6998.89 windows #0-0] 100 passing (214ms)
+
+
+Spec Files:	 1 passed, 1 total (100% completed) in 00:00:03  
+
+2025-03-16T09:53:09.163Z INFO @wdio/local-runner: Shutting down spawned worker
+2025-03-16T09:53:09.418Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
+2025-03-16T09:53:09.419Z INFO @wdio/local-runner: shutting down
+2025-03-16T09:53:09.419Z INFO @wdio/cli:launcher: Run onComplete hook
+Test completed at: 2025-03-16 16:53:09
+Test duration: 6 seconds
+Test duration: 0h 0m 6s
+Reset database

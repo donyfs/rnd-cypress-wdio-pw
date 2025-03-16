@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { faker } from '@faker-js/faker';
 
-for (let index = 1; index <= 10; index++) {
+for (let index = 1; index <= 1000; index++) {
   test('user registration form test ' + index, async ({ page }) => {
 
     const userData = {

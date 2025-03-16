@@ -1,7 +1,7 @@
 import { faker } from '@faker-js/faker';
 
 describe('User Registration Form', () => {
-  for (let index = 1; index <= 10; index++) {
+  for (let index = 1; index <= 1000; index++) {
     it('user registration form test ' + index, () => {
       const userData = {
         name: faker.person.fullName(),

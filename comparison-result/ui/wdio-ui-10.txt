@@ -1,0 +1,737 @@
+Reset database
+Test started at: 2025-03-16 16:31:52
+
+Execution of 1 workers started at 2025-03-16T09:31:55.174Z
+
+2025-03-16T09:31:55.188Z INFO @wdio/cli:launcher: Run onPrepare hook
+2025-03-16T09:31:55.188Z INFO @wdio/utils: Setting up browser driver for: chrome@stable
+2025-03-16T09:31:55.189Z INFO @wdio/utils: Setting up browser binaries for: chrome@stable
+2025-03-16T09:31:55.191Z INFO webdriver: Using Chromedriver v134.0.6998.89 from cache directory C:\Users\62896\AppData\Local\Temp
+2025-03-16T09:31:55.192Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2025-03-16T09:31:55.193Z INFO @wdio/local-runner: Start worker 0-0 with arg: run ./wdio.conf.js --spec test/specs/ui.spec.js
+[0-0] 2025-03-16T09:31:56.066Z INFO @wdio/local-runner: Run worker command: run
+[0-0] RUNNING in chrome - file:///D:/playground-code/rnd-cypress-wdio-pw/wdio/test/specs/ui.spec.js
+[0-0] 2025-03-16T09:31:56.330Z INFO webdriver: Initiate new session using the WebDriver protocol
+[0-0] 2025-03-16T09:31:56.576Z INFO webdriver: Using Chromedriver v134.0.6998.89 from cache directory C:\Users\62896\AppData\Local\Temp
+[0-0] 2025-03-16T09:31:56.898Z INFO chromedriver: Starting ChromeDriver 134.0.6998.89 (b623489a994ecb8df7381fcceb54cfd3aafc9c3c-refs/branch-heads/6998@{#1899}) on port 56338
+[0-0] 2025-03-16T09:31:56.898Z INFO chromedriver: Remote connections are allowed by an allowlist (0.0.0.0).
+[0-0] 2025-03-16T09:31:56.898Z INFO chromedriver: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[0-0] 2025-03-16T09:31:56.901Z INFO chromedriver: ChromeDriver was started successfully on port 56338.
+[0-0] 2025-03-16T09:31:57.910Z INFO @wdio/utils: Started Chromedriver v134.0.6998.89 with params --port=56338 --allowed-origins=* --allowed-ips=0.0.0.0 in 1348ms on port 56338
+[0-0] 2025-03-16T09:31:57.912Z INFO webdriver: [POST] http://localhost:56338/session
+[0-0] 2025-03-16T09:31:57.913Z INFO webdriver: DATA {
+[0-0]   capabilities: {
+[0-0]     alwaysMatch: {
+[0-0]       browserName: 'chrome',
+[0-0]       'goog:chromeOptions': [Object],
+[0-0]       webSocketUrl: true,
+[0-0]       unhandledPromptBehavior: 'ignore'
+[0-0]     },
+[0-0]     firstMatch: [ {} ]
+[0-0]   }
+[0-0] }
+[0-0] 2025-03-16T09:31:58.518Z INFO webdriver: Register BiDi handler for session with id 9ac50c4c8d7f1739f9815da96d86bd34
+[0-0] 2025-03-16T09:31:58.518Z INFO webdriver: Connect to webSocketUrl ws://127.0.0.1:56338/session/9ac50c4c8d7f1739f9815da96d86bd34
+[0-0] 2025-03-16T09:31:58.526Z INFO webdriver: Connected session to Bidi protocol
+[0-0] 2025-03-16T09:31:58.527Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.contextCreated"]}
+[0-0] 2025-03-16T09:31:58.528Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["log.entryAdded","browsingContext.navigationStarted"]}
+[0-0] 2025-03-16T09:31:58.528Z INFO webdriver: BIDI COMMAND script.addPreloadScript { functionDeclaration: <PreloadScript[1319 bytes]>, contexts: undefined }
+[0-0] 2025-03-16T09:31:58.529Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.navigationStarted","browsingContext.fragmentNavigated","network.responseCompleted","network.beforeRequestSent","network.fetchError"]}
+[0-0] 2025-03-16T09:31:58.529Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.userPromptOpened"]}
+[0-0] 2025-03-16T09:31:58.529Z INFO webdriver: BIDI COMMAND session.subscribe {"events":["browsingContext.navigationStarted"]}
+[0-0] 2025-03-16T09:31:58.530Z INFO webdriver: COMMAND getWindowHandle()
+[0-0] 2025-03-16T09:31:58.530Z INFO webdriver: Connected to WebDriver Bidi interface at ws://127.0.0.1:56338/session/9ac50c4c8d7f1739f9815da96d86bd34
+[0-0] 2025-03-16T09:31:58.530Z INFO webdriver: BIDI COMMAND browsingContext.getTree {}
+[0-0] 2025-03-16T09:31:58.530Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/window
+[0-0] 2025-03-16T09:31:58.532Z INFO webdriver: RESULT D50F82C5B0BC134D3D1BFEA664BD03D0
+[0-0] 2025-03-16T09:31:58.537Z INFO webdriverio:PolyfillManager: Adding polyfill script to context with id D50F82C5B0BC134D3D1BFEA664BD03D0
+[0-0] 2025-03-16T09:31:58.538Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[442 bytes] webdriverioPolyfill>","target":{"children":null,"clientWindow":"","context":"D50F82C5B0BC134D3D1BFEA664BD03D0","originalOpener":null,"parent":null,"url":"about:blank","userContext":"default"},"awaitPromise":false}
+[0-0] 2025-03-16T09:31:58.538Z INFO webdriver: BIDI COMMAND script.addPreloadScript { functionDeclaration: <PreloadScript[442 bytes]>, contexts: ["D50F82C5B0BC134D3D1BFEA664BD03D0"] }
+[0-0] 2025-03-16T09:31:58.539Z INFO webdriver: BIDI RESULT {"id":1,"result":{"subscription":"078d7a7f-1040-4ddc-b5d8-c3a4708b8083"},"type":"success"}
+[0-0] 2025-03-16T09:31:58.539Z INFO webdriver: BIDI RESULT {"id":2,"result":{"subscription":"ebdf7eff-e952-41a0-9b13-a4cb2cb784de"},"type":"success"}
+[0-0] 2025-03-16T09:31:58.539Z INFO webdriver: BIDI RESULT {"id":4,"result":{"subscription":"ac2acf46-fdaf-4f76-9968-5b680517fea0"},"type":"success"}
+[0-0] 2025-03-16T09:31:58.539Z INFO webdriver: BIDI RESULT {"id":5,"result":{"subscription":"5cd961c6-675f-4bf7-b158-f96325f8d112"},"type":"success"}
+[0-0] 2025-03-16T09:31:58.540Z INFO webdriver: BIDI RESULT {"id":6,"result":{"subscription":"0c21e1c4-fd68-4afe-ac27-cb5c81ac5cee"},"type":"success"}
+[0-0] 2025-03-16T09:31:58.540Z INFO webdriver: BIDI RESULT {"id":7,"result":{"contexts":[{"children":[],"clientWindow":"","context":"D50F82C5B0BC134D3D1BFEA664BD03D0","originalOpener":null,"parent":null,"url":"about:blank","userContext":"default"}]},"type":"success"}
+[0-0] 2025-03-16T09:31:58.544Z INFO webdriver: BIDI RESULT {"id":3,"result":{"script":"1683cf64-c857-4bec-9431-a9b494500d71"},"type":"success"}
+[0-0] 2025-03-16T09:31:58.547Z INFO webdriver: BIDI COMMAND browsingContext.navigate {"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","url":"http://localhost:3000","wait":"complete"}
+[0-0] 2025-03-16T09:31:58.548Z INFO webdriver: BIDI RESULT {"id":8,"result":{"realm":"3608193444282954934.405367553912096750","result":{"type":"undefined"},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:31:58.548Z INFO webdriver: BIDI RESULT {"id":9,"result":{"script":"6b64a800-3e3d-46f4-97f6-366c0eaf3ddb"},"type":"success"}
+[0-0] 2025-03-16T09:31:58.584Z INFO webdriver: BIDI RESULT {"id":10,"result":{"navigation":"f86c70a4-6374-499a-9e7d-3729279fda46","url":"http://localhost:3000/"},"type":"success"}
+[0-0] 2025-03-16T09:31:58.587Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#name"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:58.593Z INFO webdriver: BIDI RESULT {"id":11,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.3","type":"node","value":{"attributes":{"id":"name","name":"name","required":"","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.7","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:58.598Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.3")
+[0-0] 2025-03-16T09:31:58.598Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.3/clear
+[0-0] 2025-03-16T09:31:58.636Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:58.636Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.3", "Marvin Zulauf")
+[0-0] 2025-03-16T09:31:58.637Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.3/value
+[0-0] 2025-03-16T09:31:58.637Z INFO webdriver: DATA { text: 'Marvin Zulauf' }
+[0-0] 2025-03-16T09:31:58.699Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:58.699Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#email"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:58.702Z INFO webdriver: BIDI RESULT {"id":12,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.4","type":"node","value":{"attributes":{"id":"email","name":"email","required":"","type":"email"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.11","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:58.705Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.4")
+[0-0] 2025-03-16T09:31:58.705Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.4/clear
+[0-0] 2025-03-16T09:31:58.728Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:58.728Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.4", "Edgar.Sawayn-Steuber@hotmail.com")
+[0-0] 2025-03-16T09:31:58.728Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.4/value
+[0-0] 2025-03-16T09:31:58.728Z INFO webdriver: DATA { text: 'Edgar.Sawayn-Steuber@hotmail.com' }
+[0-0] 2025-03-16T09:31:58.772Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:58.772Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#country"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:58.776Z INFO webdriver: BIDI RESULT {"id":13,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.5","type":"node","value":{"attributes":{"id":"country","name":"country","required":"","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.12","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:58.777Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.5")
+[0-0] 2025-03-16T09:31:58.778Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.5/clear
+[0-0] 2025-03-16T09:31:58.798Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:58.798Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.5", "<Screenshot[base64]>")
+[0-0] 2025-03-16T09:31:58.798Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.5/value
+[0-0] 2025-03-16T09:31:58.798Z INFO webdriver: DATA { text: 'Bulgaria' }
+[0-0] 2025-03-16T09:31:58.830Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:58.830Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":".btn"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:58.833Z INFO webdriver: BIDI RESULT {"id":14,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.13","type":"node","value":{"attributes":{"class":"btn","type":"submit"},"childNodeCount":1,"localName":"button","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:58.836Z INFO webdriver: COMMAND elementClick("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.13")
+[0-0] 2025-03-16T09:31:58.837Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.13/click
+[0-0] 2025-03-16T09:31:58.890Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:58.891Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#successMessage"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:58.895Z INFO webdriver: BIDI RESULT {"id":15,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.18","type":"node","value":{"attributes":{"class":"success-message","id":"successMessage"},"childNodeCount":1,"localName":"div","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:58.897Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[194 bytes] checkVisibility>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.18"},{"type":"object","value":[["withinViewport",{"type":"boolean","value":false}],["contentVisibilityAuto",{"type":"boolean","value":true}],["opacityProperty",{"type":"boolean","value":true}],["visibilityProperty",{"type":"boolean","value":true}]]}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:31:58.898Z INFO webdriver: COMMAND getElementCSSValue("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.18", "display")
+[0-0] 2025-03-16T09:31:58.898Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.18/css/display
+[0-0] 2025-03-16T09:31:58.910Z INFO webdriver: RESULT block
+[0-0] 2025-03-16T09:31:58.926Z INFO webdriver: BIDI RESULT {"id":16,"result":{"realm":"2039795705602131869.7983273159205287152","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:31:58.928Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#tableBody tr:last-child"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:58.931Z INFO webdriver: BIDI RESULT {"id":17,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.19","type":"node","value":{"attributes":{},"childNodeCount":7,"localName":"tr","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:58.933Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(1)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.19"}]}
+[0-0] 2025-03-16T09:31:58.937Z INFO webdriver: BIDI RESULT {"id":18,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.20","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:58.938Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.19"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.20"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:31:58.944Z INFO webdriver: BIDI RESULT {"id":19,"result":{"realm":"2039795705602131869.7983273159205287152","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:31:58.946Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.20")
+[0-0] 2025-03-16T09:31:58.946Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.20/text
+[0-0] 2025-03-16T09:31:58.963Z INFO webdriver: RESULT Marvin Zulauf
+[0-0] 2025-03-16T09:31:58.964Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(2)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.19"}]}
+[0-0] 2025-03-16T09:31:58.967Z INFO webdriver: BIDI RESULT {"id":20,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.21","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:58.967Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.19"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.21"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:31:58.971Z INFO webdriver: BIDI RESULT {"id":21,"result":{"realm":"2039795705602131869.7983273159205287152","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:31:58.972Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.21")
+[0-0] 2025-03-16T09:31:58.972Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.21/text
+[0-0] 2025-03-16T09:31:58.979Z INFO webdriver: RESULT Edgar.Sawayn-Steuber@hotmail.com
+[0-0] 2025-03-16T09:31:58.980Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(3)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.19"}]}
+[0-0] 2025-03-16T09:31:58.984Z INFO webdriver: BIDI RESULT {"id":22,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.22","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:58.984Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.19"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.22"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:31:58.987Z INFO webdriver: BIDI RESULT {"id":23,"result":{"realm":"2039795705602131869.7983273159205287152","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:31:58.989Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.22")
+[0-0] 2025-03-16T09:31:58.989Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.DC89EB5FC127F451EAE5D98962ECF460.e.22/text
+[0-0] 2025-03-16T09:31:58.998Z INFO webdriver: RESULT Bulgaria
+[0-0] 2025-03-16T09:31:58.999Z INFO webdriver: BIDI COMMAND browsingContext.navigate {"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","url":"http://localhost:3000","wait":"complete"}
+[0-0] 2025-03-16T09:31:59.020Z INFO webdriver: BIDI RESULT {"id":24,"result":{"navigation":"e570cd9d-25b3-431f-b680-e326a02cde08","url":"http://localhost:3000/"},"type":"success"}
+[0-0] 2025-03-16T09:31:59.021Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#name"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:59.026Z INFO webdriver: BIDI RESULT {"id":25,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.24","type":"node","value":{"attributes":{"id":"name","name":"name","required":"","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.30","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.028Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.24")
+[0-0] 2025-03-16T09:31:59.028Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.24/clear
+[0-0] 2025-03-16T09:31:59.054Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.054Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.24", "Mr. Andres Runolfsson")
+[0-0] 2025-03-16T09:31:59.054Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.24/value
+[0-0] 2025-03-16T09:31:59.054Z INFO webdriver: DATA { text: 'Mr. Andres Runolfsson' }
+[0-0] 2025-03-16T09:31:59.094Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.095Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#email"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:59.097Z INFO webdriver: BIDI RESULT {"id":26,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.25","type":"node","value":{"attributes":{"id":"email","name":"email","required":"","type":"email"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.34","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.099Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.25")
+[0-0] 2025-03-16T09:31:59.100Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.25/clear
+[0-0] 2025-03-16T09:31:59.122Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.122Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.25", "Aditya_Hayes83@hotmail.com")
+[0-0] 2025-03-16T09:31:59.123Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.25/value
+[0-0] 2025-03-16T09:31:59.123Z INFO webdriver: DATA { text: 'Aditya_Hayes83@hotmail.com' }
+[0-0] 2025-03-16T09:31:59.164Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.164Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#country"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:59.167Z INFO webdriver: BIDI RESULT {"id":27,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.26","type":"node","value":{"attributes":{"id":"country","name":"country","required":"","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.35","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.169Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.26")
+[0-0] 2025-03-16T09:31:59.170Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.26/clear
+[0-0] 2025-03-16T09:31:59.195Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.195Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.26", "Comoros")
+[0-0] 2025-03-16T09:31:59.195Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.26/value
+[0-0] 2025-03-16T09:31:59.195Z INFO webdriver: DATA { text: 'Comoros' }
+[0-0] 2025-03-16T09:31:59.236Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.236Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":".btn"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:59.241Z INFO webdriver: BIDI RESULT {"id":28,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.36","type":"node","value":{"attributes":{"class":"btn","type":"submit"},"childNodeCount":1,"localName":"button","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.242Z INFO webdriver: COMMAND elementClick("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.36")
+[0-0] 2025-03-16T09:31:59.243Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.36/click
+[0-0] 2025-03-16T09:31:59.289Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.289Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#successMessage"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:59.292Z INFO webdriver: BIDI RESULT {"id":29,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.37","type":"node","value":{"attributes":{"class":"success-message","id":"successMessage"},"childNodeCount":1,"localName":"div","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.295Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[194 bytes] checkVisibility>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.37"},{"type":"object","value":[["withinViewport",{"type":"boolean","value":false}],["contentVisibilityAuto",{"type":"boolean","value":true}],["opacityProperty",{"type":"boolean","value":true}],["visibilityProperty",{"type":"boolean","value":true}]]}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:31:59.295Z INFO webdriver: COMMAND getElementCSSValue("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.37", "display")
+[0-0] 2025-03-16T09:31:59.296Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.37/css/display
+[0-0] 2025-03-16T09:31:59.302Z INFO webdriver: RESULT block
+[0-0] 2025-03-16T09:31:59.317Z INFO webdriver: BIDI RESULT {"id":30,"result":{"realm":"7117771715724606908.3024566765296488312","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:31:59.317Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#tableBody tr:last-child"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:59.320Z INFO webdriver: BIDI RESULT {"id":31,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.40","type":"node","value":{"attributes":{},"childNodeCount":7,"localName":"tr","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.321Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(1)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.40"}]}
+[0-0] 2025-03-16T09:31:59.324Z INFO webdriver: BIDI RESULT {"id":32,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.41","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.325Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.40"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.41"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:31:59.327Z INFO webdriver: BIDI RESULT {"id":33,"result":{"realm":"7117771715724606908.3024566765296488312","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:31:59.329Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.41")
+[0-0] 2025-03-16T09:31:59.329Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.41/text
+[0-0] 2025-03-16T09:31:59.337Z INFO webdriver: RESULT Mr. Andres Runolfsson
+[0-0] 2025-03-16T09:31:59.337Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(2)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.40"}]}
+[0-0] 2025-03-16T09:31:59.340Z INFO webdriver: BIDI RESULT {"id":34,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.42","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.340Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.40"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.42"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:31:59.343Z INFO webdriver: BIDI RESULT {"id":35,"result":{"realm":"7117771715724606908.3024566765296488312","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:31:59.344Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.42")
+[0-0] 2025-03-16T09:31:59.344Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.42/text
+[0-0] 2025-03-16T09:31:59.352Z INFO webdriver: RESULT Aditya_Hayes83@hotmail.com
+[0-0] 2025-03-16T09:31:59.352Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(3)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.40"}]}
+[0-0] 2025-03-16T09:31:59.355Z INFO webdriver: BIDI RESULT {"id":36,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.43","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.355Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.40"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.43"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:31:59.359Z INFO webdriver: BIDI RESULT {"id":37,"result":{"realm":"7117771715724606908.3024566765296488312","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:31:59.360Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.43")
+[0-0] 2025-03-16T09:31:59.360Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.211C9472EEB4D596C5FB665702A027DB.e.43/text
+[0-0] 2025-03-16T09:31:59.366Z INFO webdriver: RESULT Comoros
+[0-0] 2025-03-16T09:31:59.367Z INFO webdriver: BIDI COMMAND browsingContext.navigate {"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","url":"http://localhost:3000","wait":"complete"}
+[0-0] 2025-03-16T09:31:59.387Z INFO webdriver: BIDI RESULT {"id":38,"result":{"navigation":"44a439af-7f47-4428-85f5-bfe54829237a","url":"http://localhost:3000/"},"type":"success"}
+[0-0] 2025-03-16T09:31:59.388Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#name"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:59.391Z INFO webdriver: BIDI RESULT {"id":39,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.46","type":"node","value":{"attributes":{"id":"name","name":"name","required":"","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.49","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.393Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.46")
+[0-0] 2025-03-16T09:31:59.393Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.46/clear
+[0-0] 2025-03-16T09:31:59.417Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.417Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.46", "Jerald Blanda IV")
+[0-0] 2025-03-16T09:31:59.418Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.46/value
+[0-0] 2025-03-16T09:31:59.418Z INFO webdriver: DATA { text: 'Jerald Blanda IV' }
+[0-0] 2025-03-16T09:31:59.463Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.463Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#email"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:59.466Z INFO webdriver: BIDI RESULT {"id":40,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.47","type":"node","value":{"attributes":{"id":"email","name":"email","required":"","type":"email"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.55","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.467Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.47")
+[0-0] 2025-03-16T09:31:59.467Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.47/clear
+[0-0] 2025-03-16T09:31:59.486Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.487Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.47", "Arielle19@gmail.com")
+[0-0] 2025-03-16T09:31:59.487Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.47/value
+[0-0] 2025-03-16T09:31:59.487Z INFO webdriver: DATA { text: 'Arielle19@gmail.com' }
+[0-0] 2025-03-16T09:31:59.523Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.523Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#country"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:59.526Z INFO webdriver: BIDI RESULT {"id":41,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.48","type":"node","value":{"attributes":{"id":"country","name":"country","required":"","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.56","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.527Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.48")
+[0-0] 2025-03-16T09:31:59.527Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.48/clear
+[0-0] 2025-03-16T09:31:59.546Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.546Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.48", "Christmas Island")
+[0-0] 2025-03-16T09:31:59.546Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.48/value
+[0-0] 2025-03-16T09:31:59.546Z INFO webdriver: DATA { text: 'Christmas Island' }
+[0-0] 2025-03-16T09:31:59.583Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.583Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":".btn"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:59.586Z INFO webdriver: BIDI RESULT {"id":42,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.57","type":"node","value":{"attributes":{"class":"btn","type":"submit"},"childNodeCount":1,"localName":"button","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.587Z INFO webdriver: COMMAND elementClick("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.57")
+[0-0] 2025-03-16T09:31:59.587Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.57/click
+[0-0] 2025-03-16T09:31:59.626Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.627Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#successMessage"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:59.631Z INFO webdriver: BIDI RESULT {"id":43,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.58","type":"node","value":{"attributes":{"class":"success-message","id":"successMessage"},"childNodeCount":1,"localName":"div","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.632Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[194 bytes] checkVisibility>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.58"},{"type":"object","value":[["withinViewport",{"type":"boolean","value":false}],["contentVisibilityAuto",{"type":"boolean","value":true}],["opacityProperty",{"type":"boolean","value":true}],["visibilityProperty",{"type":"boolean","value":true}]]}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:31:59.633Z INFO webdriver: COMMAND getElementCSSValue("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.58", "display")
+[0-0] 2025-03-16T09:31:59.633Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.58/css/display
+[0-0] 2025-03-16T09:31:59.640Z INFO webdriver: RESULT block
+[0-0] 2025-03-16T09:31:59.654Z INFO webdriver: BIDI RESULT {"id":44,"result":{"realm":"-2133107713703291038.-6462250023746288420","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:31:59.655Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#tableBody tr:last-child"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:59.658Z INFO webdriver: BIDI RESULT {"id":45,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.61","type":"node","value":{"attributes":{},"childNodeCount":7,"localName":"tr","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.659Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(1)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.61"}]}
+[0-0] 2025-03-16T09:31:59.662Z INFO webdriver: BIDI RESULT {"id":46,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.62","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.663Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.61"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.62"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:31:59.665Z INFO webdriver: BIDI RESULT {"id":47,"result":{"realm":"-2133107713703291038.-6462250023746288420","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:31:59.667Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.62")
+[0-0] 2025-03-16T09:31:59.667Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.62/text
+[0-0] 2025-03-16T09:31:59.674Z INFO webdriver: RESULT Jerald Blanda IV
+[0-0] 2025-03-16T09:31:59.674Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(2)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.61"}]}
+[0-0] 2025-03-16T09:31:59.677Z INFO webdriver: BIDI RESULT {"id":48,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.63","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.678Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.61"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.63"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:31:59.680Z INFO webdriver: BIDI RESULT {"id":49,"result":{"realm":"-2133107713703291038.-6462250023746288420","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:31:59.681Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.63")
+[0-0] 2025-03-16T09:31:59.682Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.63/text
+[0-0] 2025-03-16T09:31:59.687Z INFO webdriver: RESULT Arielle19@gmail.com
+[0-0] 2025-03-16T09:31:59.688Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(3)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.61"}]}
+[0-0] 2025-03-16T09:31:59.691Z INFO webdriver: BIDI RESULT {"id":50,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.64","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.691Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.61"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.64"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:31:59.693Z INFO webdriver: BIDI RESULT {"id":51,"result":{"realm":"-2133107713703291038.-6462250023746288420","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:31:59.695Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.64")
+[0-0] 2025-03-16T09:31:59.695Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.CD9CA27E158B559E3AE01B1886E45B5C.e.64/text
+[0-0] 2025-03-16T09:31:59.700Z INFO webdriver: RESULT Christmas Island
+[0-0] 2025-03-16T09:31:59.701Z INFO webdriver: BIDI COMMAND browsingContext.navigate {"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","url":"http://localhost:3000","wait":"complete"}
+[0-0] 2025-03-16T09:31:59.715Z INFO webdriver: BIDI RESULT {"id":52,"result":{"navigation":"92482e76-683e-414f-90c6-9daea893623c","url":"http://localhost:3000/"},"type":"success"}
+[0-0] 2025-03-16T09:31:59.716Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#name"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:59.718Z INFO webdriver: BIDI RESULT {"id":53,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.67","type":"node","value":{"attributes":{"id":"name","name":"name","required":"","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.70","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.719Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.67")
+[0-0] 2025-03-16T09:31:59.720Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.67/clear
+[0-0] 2025-03-16T09:31:59.744Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.745Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.67", "Kirk Gorczany")
+[0-0] 2025-03-16T09:31:59.745Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.67/value
+[0-0] 2025-03-16T09:31:59.745Z INFO webdriver: DATA { text: 'Kirk Gorczany' }
+[0-0] 2025-03-16T09:31:59.781Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.782Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#email"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:59.785Z INFO webdriver: BIDI RESULT {"id":54,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.68","type":"node","value":{"attributes":{"id":"email","name":"email","required":"","type":"email"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.76","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.786Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.68")
+[0-0] 2025-03-16T09:31:59.786Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.68/clear
+[0-0] 2025-03-16T09:31:59.805Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.805Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.68", "Mayra37@yahoo.com")
+[0-0] 2025-03-16T09:31:59.805Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.68/value
+[0-0] 2025-03-16T09:31:59.806Z INFO webdriver: DATA { text: 'Mayra37@yahoo.com' }
+[0-0] 2025-03-16T09:31:59.843Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.843Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#country"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:59.847Z INFO webdriver: BIDI RESULT {"id":55,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.69","type":"node","value":{"attributes":{"id":"country","name":"country","required":"","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.77","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.848Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.69")
+[0-0] 2025-03-16T09:31:59.848Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.69/clear
+[0-0] 2025-03-16T09:31:59.867Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.868Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.69", "South Georgia and the South Sandwich Islands")
+[0-0] 2025-03-16T09:31:59.868Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.69/value
+[0-0] 2025-03-16T09:31:59.868Z INFO webdriver: DATA { text: 'South Georgia and the South Sandwich Islands' }
+[0-0] 2025-03-16T09:31:59.916Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.917Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":".btn"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:59.923Z INFO webdriver: BIDI RESULT {"id":56,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.78","type":"node","value":{"attributes":{"class":"btn","type":"submit"},"childNodeCount":1,"localName":"button","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.924Z INFO webdriver: COMMAND elementClick("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.78")
+[0-0] 2025-03-16T09:31:59.924Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.78/click
+[0-0] 2025-03-16T09:31:59.972Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:31:59.973Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#successMessage"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:31:59.979Z INFO webdriver: BIDI RESULT {"id":57,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.79","type":"node","value":{"attributes":{"class":"success-message","id":"successMessage"},"childNodeCount":1,"localName":"div","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:31:59.980Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[194 bytes] checkVisibility>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.79"},{"type":"object","value":[["withinViewport",{"type":"boolean","value":false}],["contentVisibilityAuto",{"type":"boolean","value":true}],["opacityProperty",{"type":"boolean","value":true}],["visibilityProperty",{"type":"boolean","value":true}]]}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:31:59.981Z INFO webdriver: COMMAND getElementCSSValue("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.79", "display")
+[0-0] 2025-03-16T09:31:59.981Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.79/css/display
+[0-0] 2025-03-16T09:31:59.990Z INFO webdriver: RESULT block
+[0-0] 2025-03-16T09:32:00.003Z INFO webdriver: BIDI RESULT {"id":58,"result":{"realm":"3850929138124478353.-6623851718735816244","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:00.004Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#tableBody tr:last-child"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:00.006Z INFO webdriver: BIDI RESULT {"id":59,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.82","type":"node","value":{"attributes":{},"childNodeCount":7,"localName":"tr","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.007Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(1)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.82"}]}
+[0-0] 2025-03-16T09:32:00.010Z INFO webdriver: BIDI RESULT {"id":60,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.83","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.011Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.82"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.83"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:00.014Z INFO webdriver: BIDI RESULT {"id":61,"result":{"realm":"3850929138124478353.-6623851718735816244","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:00.016Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.83")
+[0-0] 2025-03-16T09:32:00.016Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.83/text
+[0-0] 2025-03-16T09:32:00.024Z INFO webdriver: RESULT Kirk Gorczany
+[0-0] 2025-03-16T09:32:00.024Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(2)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.82"}]}
+[0-0] 2025-03-16T09:32:00.029Z INFO webdriver: BIDI RESULT {"id":62,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.84","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.029Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.82"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.84"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:00.032Z INFO webdriver: BIDI RESULT {"id":63,"result":{"realm":"3850929138124478353.-6623851718735816244","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:00.033Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.84")
+[0-0] 2025-03-16T09:32:00.033Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.84/text
+[0-0] 2025-03-16T09:32:00.039Z INFO webdriver: RESULT Mayra37@yahoo.com
+[0-0] 2025-03-16T09:32:00.039Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(3)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.82"}]}
+[0-0] 2025-03-16T09:32:00.043Z INFO webdriver: BIDI RESULT {"id":64,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.85","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.043Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.82"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.85"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:00.046Z INFO webdriver: BIDI RESULT {"id":65,"result":{"realm":"3850929138124478353.-6623851718735816244","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:00.048Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.85")
+[0-0] 2025-03-16T09:32:00.048Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.A9F7BF9B5F56277759C4C22AE211F59E.e.85/text
+[0-0] 2025-03-16T09:32:00.054Z INFO webdriver: RESULT South Georgia and the South Sandwich Islands
+[0-0] 2025-03-16T09:32:00.055Z INFO webdriver: BIDI COMMAND browsingContext.navigate {"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","url":"http://localhost:3000","wait":"complete"}
+[0-0] 2025-03-16T09:32:00.070Z INFO webdriver: BIDI RESULT {"id":66,"result":{"navigation":"eeb0a310-a036-4f7c-bfdb-48758855deb0","url":"http://localhost:3000/"},"type":"success"}
+[0-0] 2025-03-16T09:32:00.070Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#name"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:00.074Z INFO webdriver: BIDI RESULT {"id":67,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.88","type":"node","value":{"attributes":{"id":"name","name":"name","required":"","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.94","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.076Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.88")
+[0-0] 2025-03-16T09:32:00.076Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.88/clear
+[0-0] 2025-03-16T09:32:00.096Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.096Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.88", "Andres Grant")
+[0-0] 2025-03-16T09:32:00.097Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.88/value
+[0-0] 2025-03-16T09:32:00.097Z INFO webdriver: DATA { text: 'Andres Grant' }
+[0-0] 2025-03-16T09:32:00.132Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.132Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#email"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:00.135Z INFO webdriver: BIDI RESULT {"id":68,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.89","type":"node","value":{"attributes":{"id":"email","name":"email","required":"","type":"email"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.97","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.137Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.89")
+[0-0] 2025-03-16T09:32:00.137Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.89/clear
+[0-0] 2025-03-16T09:32:00.156Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.156Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.89", "Kattie.Von@hotmail.com")
+[0-0] 2025-03-16T09:32:00.156Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.89/value
+[0-0] 2025-03-16T09:32:00.156Z INFO webdriver: DATA { text: 'Kattie.Von@hotmail.com' }
+[0-0] 2025-03-16T09:32:00.196Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.196Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#country"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:00.199Z INFO webdriver: BIDI RESULT {"id":69,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.90","type":"node","value":{"attributes":{"id":"country","name":"country","required":"","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.98","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.200Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.90")
+[0-0] 2025-03-16T09:32:00.201Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.90/clear
+[0-0] 2025-03-16T09:32:00.219Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.219Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.90", "Heard Island and McDonald Islands")
+[0-0] 2025-03-16T09:32:00.220Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.90/value
+[0-0] 2025-03-16T09:32:00.220Z INFO webdriver: DATA { text: 'Heard Island and McDonald Islands' }
+[0-0] 2025-03-16T09:32:00.256Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.256Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":".btn"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:00.259Z INFO webdriver: BIDI RESULT {"id":70,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.99","type":"node","value":{"attributes":{"class":"btn","type":"submit"},"childNodeCount":1,"localName":"button","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.260Z INFO webdriver: COMMAND elementClick("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.99")
+[0-0] 2025-03-16T09:32:00.260Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.99/click
+[0-0] 2025-03-16T09:32:00.298Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.299Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#successMessage"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:00.302Z INFO webdriver: BIDI RESULT {"id":71,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.100","type":"node","value":{"attributes":{"class":"success-message hidden","id":"successMessage"},"childNodeCount":1,"localName":"div","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.303Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[194 bytes] checkVisibility>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.100"},{"type":"object","value":[["withinViewport",{"type":"boolean","value":false}],["contentVisibilityAuto",{"type":"boolean","value":true}],["opacityProperty",{"type":"boolean","value":true}],["visibilityProperty",{"type":"boolean","value":true}]]}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:00.303Z INFO webdriver: COMMAND getElementCSSValue("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.100", "display")
+[0-0] 2025-03-16T09:32:00.303Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.100/css/display
+[0-0] 2025-03-16T09:32:00.309Z INFO webdriver: RESULT block
+[0-0] 2025-03-16T09:32:00.319Z INFO webdriver: BIDI RESULT {"id":72,"result":{"realm":"-7588488538854183361.-1948530569413934833","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:00.320Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#tableBody tr:last-child"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:00.322Z INFO webdriver: BIDI RESULT {"id":73,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.103","type":"node","value":{"attributes":{},"childNodeCount":7,"localName":"tr","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.323Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(1)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.103"}]}
+[0-0] 2025-03-16T09:32:00.326Z INFO webdriver: BIDI RESULT {"id":74,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.104","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.326Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.103"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.104"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:00.328Z INFO webdriver: BIDI RESULT {"id":75,"result":{"realm":"-7588488538854183361.-1948530569413934833","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:00.329Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.104")
+[0-0] 2025-03-16T09:32:00.330Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.104/text
+[0-0] 2025-03-16T09:32:00.336Z INFO webdriver: RESULT Andres Grant
+[0-0] 2025-03-16T09:32:00.336Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(2)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.103"}]}
+[0-0] 2025-03-16T09:32:00.339Z INFO webdriver: BIDI RESULT {"id":76,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.105","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.339Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.103"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.105"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:00.341Z INFO webdriver: BIDI RESULT {"id":77,"result":{"realm":"-7588488538854183361.-1948530569413934833","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:00.342Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.105")
+[0-0] 2025-03-16T09:32:00.342Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.105/text
+[0-0] 2025-03-16T09:32:00.350Z INFO webdriver: RESULT Kattie.Von@hotmail.com
+[0-0] 2025-03-16T09:32:00.350Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(3)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.103"}]}
+[0-0] 2025-03-16T09:32:00.353Z INFO webdriver: BIDI RESULT {"id":78,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.106","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.354Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.103"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.106"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:00.356Z INFO webdriver: BIDI RESULT {"id":79,"result":{"realm":"-7588488538854183361.-1948530569413934833","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:00.357Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.106")
+[0-0] 2025-03-16T09:32:00.357Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.44A4DBA53B76F95098939D147DD16452.e.106/text
+[0-0] 2025-03-16T09:32:00.362Z INFO webdriver: RESULT Heard Island and McDonald Islands
+[0-0] 2025-03-16T09:32:00.363Z INFO webdriver: BIDI COMMAND browsingContext.navigate {"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","url":"http://localhost:3000","wait":"complete"}
+[0-0] 2025-03-16T09:32:00.377Z INFO webdriver: BIDI RESULT {"id":80,"result":{"navigation":"d57ba428-ed56-47d7-8125-1e3a08d44dc5","url":"http://localhost:3000/"},"type":"success"}
+[0-0] 2025-03-16T09:32:00.377Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#name"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:00.381Z INFO webdriver: BIDI RESULT {"id":81,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.109","type":"node","value":{"attributes":{"id":"name","name":"name","required":"","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.115","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.382Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.109")
+[0-0] 2025-03-16T09:32:00.382Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.109/clear
+[0-0] 2025-03-16T09:32:00.401Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.401Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.109", "Abraham Murphy")
+[0-0] 2025-03-16T09:32:00.401Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.109/value
+[0-0] 2025-03-16T09:32:00.401Z INFO webdriver: DATA { text: 'Abraham Murphy' }
+[0-0] 2025-03-16T09:32:00.438Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.438Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#email"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:00.441Z INFO webdriver: BIDI RESULT {"id":82,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.110","type":"node","value":{"attributes":{"id":"email","name":"email","required":"","type":"email"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.118","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.442Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.110")
+[0-0] 2025-03-16T09:32:00.443Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.110/clear
+[0-0] 2025-03-16T09:32:00.462Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.462Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.110", "Devonte.Grady@yahoo.com")
+[0-0] 2025-03-16T09:32:00.462Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.110/value
+[0-0] 2025-03-16T09:32:00.462Z INFO webdriver: DATA { text: 'Devonte.Grady@yahoo.com' }
+[0-0] 2025-03-16T09:32:00.500Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.500Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#country"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:00.504Z INFO webdriver: BIDI RESULT {"id":83,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.111","type":"node","value":{"attributes":{"id":"country","name":"country","required":"","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.119","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.505Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.111")
+[0-0] 2025-03-16T09:32:00.505Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.111/clear
+[0-0] 2025-03-16T09:32:00.526Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.526Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.111", "Afghanistan")
+[0-0] 2025-03-16T09:32:00.526Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.111/value
+[0-0] 2025-03-16T09:32:00.527Z INFO webdriver: DATA { text: 'Afghanistan' }
+[0-0] 2025-03-16T09:32:00.559Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.559Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":".btn"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:00.562Z INFO webdriver: BIDI RESULT {"id":84,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.120","type":"node","value":{"attributes":{"class":"btn","type":"submit"},"childNodeCount":1,"localName":"button","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.563Z INFO webdriver: COMMAND elementClick("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.120")
+[0-0] 2025-03-16T09:32:00.564Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.120/click
+[0-0] 2025-03-16T09:32:00.600Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.600Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#successMessage"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:00.603Z INFO webdriver: BIDI RESULT {"id":85,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.121","type":"node","value":{"attributes":{"class":"success-message","id":"successMessage"},"childNodeCount":1,"localName":"div","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.604Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[194 bytes] checkVisibility>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.121"},{"type":"object","value":[["withinViewport",{"type":"boolean","value":false}],["contentVisibilityAuto",{"type":"boolean","value":true}],["opacityProperty",{"type":"boolean","value":true}],["visibilityProperty",{"type":"boolean","value":true}]]}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:00.604Z INFO webdriver: COMMAND getElementCSSValue("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.121", "display")
+[0-0] 2025-03-16T09:32:00.605Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.121/css/display
+[0-0] 2025-03-16T09:32:00.611Z INFO webdriver: RESULT block
+[0-0] 2025-03-16T09:32:00.623Z INFO webdriver: BIDI RESULT {"id":86,"result":{"realm":"-6146152893191002552.7788950311092965784","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:00.623Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#tableBody tr:last-child"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:00.626Z INFO webdriver: BIDI RESULT {"id":87,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.124","type":"node","value":{"attributes":{},"childNodeCount":7,"localName":"tr","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.627Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(1)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.124"}]}
+[0-0] 2025-03-16T09:32:00.629Z INFO webdriver: BIDI RESULT {"id":88,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.125","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.629Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.124"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.125"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:00.632Z INFO webdriver: BIDI RESULT {"id":89,"result":{"realm":"-6146152893191002552.7788950311092965784","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:00.633Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.125")
+[0-0] 2025-03-16T09:32:00.633Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.125/text
+[0-0] 2025-03-16T09:32:00.640Z INFO webdriver: RESULT Abraham Murphy
+[0-0] 2025-03-16T09:32:00.640Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(2)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.124"}]}
+[0-0] 2025-03-16T09:32:00.643Z INFO webdriver: BIDI RESULT {"id":90,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.126","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.643Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.124"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.126"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:00.646Z INFO webdriver: BIDI RESULT {"id":91,"result":{"realm":"-6146152893191002552.7788950311092965784","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:00.647Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.126")
+[0-0] 2025-03-16T09:32:00.648Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.126/text
+[0-0] 2025-03-16T09:32:00.653Z INFO webdriver: RESULT Devonte.Grady@yahoo.com
+[0-0] 2025-03-16T09:32:00.653Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(3)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.124"}]}
+[0-0] 2025-03-16T09:32:00.656Z INFO webdriver: BIDI RESULT {"id":92,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.127","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.656Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.124"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.127"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:00.659Z INFO webdriver: BIDI RESULT {"id":93,"result":{"realm":"-6146152893191002552.7788950311092965784","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:00.660Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.127")
+[0-0] 2025-03-16T09:32:00.660Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.3F594022558B2F03D0871D3BCFAFC29C.e.127/text
+[0-0] 2025-03-16T09:32:00.666Z INFO webdriver: RESULT Afghanistan
+[0-0] 2025-03-16T09:32:00.667Z INFO webdriver: BIDI COMMAND browsingContext.navigate {"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","url":"http://localhost:3000","wait":"complete"}
+[0-0] 2025-03-16T09:32:00.680Z INFO webdriver: BIDI RESULT {"id":94,"result":{"navigation":"a059277c-d885-47f4-aab8-65908da5b5e1","url":"http://localhost:3000/"},"type":"success"}
+[0-0] 2025-03-16T09:32:00.680Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#name"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:00.682Z INFO webdriver: BIDI RESULT {"id":95,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.130","type":"node","value":{"attributes":{"id":"name","name":"name","required":"","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.133","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.683Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.130")
+[0-0] 2025-03-16T09:32:00.684Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.130/clear
+[0-0] 2025-03-16T09:32:00.702Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.702Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.130", "Carla Cassin")
+[0-0] 2025-03-16T09:32:00.702Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.130/value
+[0-0] 2025-03-16T09:32:00.703Z INFO webdriver: DATA { text: 'Carla Cassin' }
+[0-0] 2025-03-16T09:32:00.738Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.738Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#email"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:00.741Z INFO webdriver: BIDI RESULT {"id":96,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.131","type":"node","value":{"attributes":{"id":"email","name":"email","required":"","type":"email"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.139","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.743Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.131")
+[0-0] 2025-03-16T09:32:00.743Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.131/clear
+[0-0] 2025-03-16T09:32:00.762Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.763Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.131", "Jay_Johnson@hotmail.com")
+[0-0] 2025-03-16T09:32:00.763Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.131/value
+[0-0] 2025-03-16T09:32:00.763Z INFO webdriver: DATA { text: 'Jay_Johnson@hotmail.com' }
+[0-0] 2025-03-16T09:32:00.799Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.799Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#country"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:00.802Z INFO webdriver: BIDI RESULT {"id":97,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.132","type":"node","value":{"attributes":{"id":"country","name":"country","required":"","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.140","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.803Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.132")
+[0-0] 2025-03-16T09:32:00.803Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.132/clear
+[0-0] 2025-03-16T09:32:00.821Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.821Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.132", "Ukraine")
+[0-0] 2025-03-16T09:32:00.821Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.132/value
+[0-0] 2025-03-16T09:32:00.821Z INFO webdriver: DATA { text: 'Ukraine' }
+[0-0] 2025-03-16T09:32:00.854Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.854Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":".btn"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:00.857Z INFO webdriver: BIDI RESULT {"id":98,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.141","type":"node","value":{"attributes":{"class":"btn","type":"submit"},"childNodeCount":1,"localName":"button","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.858Z INFO webdriver: COMMAND elementClick("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.141")
+[0-0] 2025-03-16T09:32:00.858Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.141/click
+[0-0] 2025-03-16T09:32:00.896Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:00.896Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#successMessage"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:00.900Z INFO webdriver: BIDI RESULT {"id":99,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.142","type":"node","value":{"attributes":{"class":"success-message","id":"successMessage"},"childNodeCount":1,"localName":"div","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.901Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[194 bytes] checkVisibility>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.142"},{"type":"object","value":[["withinViewport",{"type":"boolean","value":false}],["contentVisibilityAuto",{"type":"boolean","value":true}],["opacityProperty",{"type":"boolean","value":true}],["visibilityProperty",{"type":"boolean","value":true}]]}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:00.901Z INFO webdriver: COMMAND getElementCSSValue("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.142", "display")
+[0-0] 2025-03-16T09:32:00.901Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.142/css/display
+[0-0] 2025-03-16T09:32:00.907Z INFO webdriver: RESULT block
+[0-0] 2025-03-16T09:32:00.919Z INFO webdriver: BIDI RESULT {"id":100,"result":{"realm":"-5966086235127884448.-8623744623264182602","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:00.919Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#tableBody tr:last-child"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:00.922Z INFO webdriver: BIDI RESULT {"id":101,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.145","type":"node","value":{"attributes":{},"childNodeCount":7,"localName":"tr","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.923Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(1)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.145"}]}
+[0-0] 2025-03-16T09:32:00.926Z INFO webdriver: BIDI RESULT {"id":102,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.146","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.926Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.145"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.146"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:00.929Z INFO webdriver: BIDI RESULT {"id":103,"result":{"realm":"-5966086235127884448.-8623744623264182602","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:00.930Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.146")
+[0-0] 2025-03-16T09:32:00.930Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.146/text
+[0-0] 2025-03-16T09:32:00.937Z INFO webdriver: RESULT Carla Cassin
+[0-0] 2025-03-16T09:32:00.937Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(2)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.145"}]}
+[0-0] 2025-03-16T09:32:00.942Z INFO webdriver: BIDI RESULT {"id":104,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.147","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.942Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.145"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.147"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:00.945Z INFO webdriver: BIDI RESULT {"id":105,"result":{"realm":"-5966086235127884448.-8623744623264182602","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:00.946Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.147")
+[0-0] 2025-03-16T09:32:00.947Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.147/text
+[0-0] 2025-03-16T09:32:00.953Z INFO webdriver: RESULT Jay_Johnson@hotmail.com
+[0-0] 2025-03-16T09:32:00.953Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(3)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.145"}]}
+[0-0] 2025-03-16T09:32:00.956Z INFO webdriver: BIDI RESULT {"id":106,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.148","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.956Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.145"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.148"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:00.962Z INFO webdriver: BIDI RESULT {"id":107,"result":{"realm":"-5966086235127884448.-8623744623264182602","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:00.963Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.148")
+[0-0] 2025-03-16T09:32:00.963Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.F19494D19DC67053D8FB6C70BC159F3F.e.148/text
+[0-0] 2025-03-16T09:32:00.969Z INFO webdriver: RESULT Ukraine
+[0-0] 2025-03-16T09:32:00.970Z INFO webdriver: BIDI COMMAND browsingContext.navigate {"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","url":"http://localhost:3000","wait":"complete"}
+[0-0] 2025-03-16T09:32:00.984Z INFO webdriver: BIDI RESULT {"id":108,"result":{"navigation":"9faa4654-dfab-4372-8073-793455ff154a","url":"http://localhost:3000/"},"type":"success"}
+[0-0] 2025-03-16T09:32:00.985Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#name"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:00.989Z INFO webdriver: BIDI RESULT {"id":109,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.150","type":"node","value":{"attributes":{"id":"name","name":"name","required":"","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.154","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:00.990Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.150")
+[0-0] 2025-03-16T09:32:00.991Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.150/clear
+[0-0] 2025-03-16T09:32:01.012Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.012Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.150", "Israel Beahan")
+[0-0] 2025-03-16T09:32:01.012Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.150/value
+[0-0] 2025-03-16T09:32:01.012Z INFO webdriver: DATA { text: 'Israel Beahan' }
+[0-0] 2025-03-16T09:32:01.054Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.054Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#email"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:01.057Z INFO webdriver: BIDI RESULT {"id":110,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.151","type":"node","value":{"attributes":{"id":"email","name":"email","required":"","type":"email"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.160","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.058Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.151")
+[0-0] 2025-03-16T09:32:01.059Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.151/clear
+[0-0] 2025-03-16T09:32:01.080Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.081Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.151", "Maximillia_Smith-Ledner@yahoo.com")
+[0-0] 2025-03-16T09:32:01.081Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.151/value
+[0-0] 2025-03-16T09:32:01.081Z INFO webdriver: DATA { text: 'Maximillia_Smith-Ledner@yahoo.com' }
+[0-0] 2025-03-16T09:32:01.126Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.127Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#country"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:01.130Z INFO webdriver: BIDI RESULT {"id":111,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.152","type":"node","value":{"attributes":{"id":"country","name":"country","required":"","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.161","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.131Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.152")
+[0-0] 2025-03-16T09:32:01.131Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.152/clear
+[0-0] 2025-03-16T09:32:01.148Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.149Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.152", "Guadeloupe")
+[0-0] 2025-03-16T09:32:01.149Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.152/value
+[0-0] 2025-03-16T09:32:01.149Z INFO webdriver: DATA { text: 'Guadeloupe' }
+[0-0] 2025-03-16T09:32:01.178Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.178Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":".btn"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:01.181Z INFO webdriver: BIDI RESULT {"id":112,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.162","type":"node","value":{"attributes":{"class":"btn","type":"submit"},"childNodeCount":1,"localName":"button","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.182Z INFO webdriver: COMMAND elementClick("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.162")
+[0-0] 2025-03-16T09:32:01.182Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.162/click
+[0-0] 2025-03-16T09:32:01.215Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.215Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#successMessage"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:01.218Z INFO webdriver: BIDI RESULT {"id":113,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.163","type":"node","value":{"attributes":{"class":"success-message hidden","id":"successMessage"},"childNodeCount":1,"localName":"div","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.219Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[194 bytes] checkVisibility>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.163"},{"type":"object","value":[["withinViewport",{"type":"boolean","value":false}],["contentVisibilityAuto",{"type":"boolean","value":true}],["opacityProperty",{"type":"boolean","value":true}],["visibilityProperty",{"type":"boolean","value":true}]]}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:01.219Z INFO webdriver: COMMAND getElementCSSValue("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.163", "display")
+[0-0] 2025-03-16T09:32:01.219Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.163/css/display
+[0-0] 2025-03-16T09:32:01.226Z INFO webdriver: RESULT block
+[0-0] 2025-03-16T09:32:01.236Z INFO webdriver: BIDI RESULT {"id":114,"result":{"realm":"-6227385105245770525.-4520384944150333364","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:01.236Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#tableBody tr:last-child"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:01.238Z INFO webdriver: BIDI RESULT {"id":115,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.166","type":"node","value":{"attributes":{},"childNodeCount":7,"localName":"tr","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.239Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(1)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.166"}]}
+[0-0] 2025-03-16T09:32:01.242Z INFO webdriver: BIDI RESULT {"id":116,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.167","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.242Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.166"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.167"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:01.244Z INFO webdriver: BIDI RESULT {"id":117,"result":{"realm":"-6227385105245770525.-4520384944150333364","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:01.246Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.167")
+[0-0] 2025-03-16T09:32:01.246Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.167/text
+[0-0] 2025-03-16T09:32:01.252Z INFO webdriver: RESULT Israel Beahan
+[0-0] 2025-03-16T09:32:01.253Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(2)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.166"}]}
+[0-0] 2025-03-16T09:32:01.256Z INFO webdriver: BIDI RESULT {"id":118,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.168","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.256Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.166"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.168"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:01.258Z INFO webdriver: BIDI RESULT {"id":119,"result":{"realm":"-6227385105245770525.-4520384944150333364","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:01.259Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.168")
+[0-0] 2025-03-16T09:32:01.260Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.168/text
+[0-0] 2025-03-16T09:32:01.265Z INFO webdriver: RESULT Maximillia_Smith-Ledner@yahoo.com
+[0-0] 2025-03-16T09:32:01.265Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(3)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.166"}]}
+[0-0] 2025-03-16T09:32:01.268Z INFO webdriver: BIDI RESULT {"id":120,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.169","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.268Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.166"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.169"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:01.271Z INFO webdriver: BIDI RESULT {"id":121,"result":{"realm":"-6227385105245770525.-4520384944150333364","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:01.272Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.169")
+[0-0] 2025-03-16T09:32:01.272Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.6C01CE700A2DB6393A2092C70EB1EEB3.e.169/text
+[0-0] 2025-03-16T09:32:01.277Z INFO webdriver: RESULT Guadeloupe
+[0-0] 2025-03-16T09:32:01.278Z INFO webdriver: BIDI COMMAND browsingContext.navigate {"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","url":"http://localhost:3000","wait":"complete"}
+[0-0] 2025-03-16T09:32:01.292Z INFO webdriver: BIDI RESULT {"id":122,"result":{"navigation":"ecf43ac7-3637-4253-b0af-fe58212d29a4","url":"http://localhost:3000/"},"type":"success"}
+[0-0] 2025-03-16T09:32:01.292Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#name"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:01.297Z INFO webdriver: BIDI RESULT {"id":123,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.172","type":"node","value":{"attributes":{"id":"name","name":"name","required":"","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.178","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.298Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.172")
+[0-0] 2025-03-16T09:32:01.298Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.172/clear
+[0-0] 2025-03-16T09:32:01.316Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.317Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.172", "Marion Wuckert")
+[0-0] 2025-03-16T09:32:01.317Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.172/value
+[0-0] 2025-03-16T09:32:01.317Z INFO webdriver: DATA { text: 'Marion Wuckert' }
+[0-0] 2025-03-16T09:32:01.360Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.360Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#email"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:01.364Z INFO webdriver: BIDI RESULT {"id":124,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.173","type":"node","value":{"attributes":{"id":"email","name":"email","required":"","type":"email"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.181","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.365Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.173")
+[0-0] 2025-03-16T09:32:01.365Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.173/clear
+[0-0] 2025-03-16T09:32:01.386Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.386Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.173", "Marina.Rowe@hotmail.com")
+[0-0] 2025-03-16T09:32:01.386Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.173/value
+[0-0] 2025-03-16T09:32:01.386Z INFO webdriver: DATA { text: 'Marina.Rowe@hotmail.com' }
+[0-0] 2025-03-16T09:32:01.426Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.426Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#country"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:01.430Z INFO webdriver: BIDI RESULT {"id":125,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.174","type":"node","value":{"attributes":{"id":"country","name":"country","required":"","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.182","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.431Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.174")
+[0-0] 2025-03-16T09:32:01.431Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.174/clear
+[0-0] 2025-03-16T09:32:01.451Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.451Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.174", "Czechia")
+[0-0] 2025-03-16T09:32:01.451Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.174/value
+[0-0] 2025-03-16T09:32:01.451Z INFO webdriver: DATA { text: 'Czechia' }
+[0-0] 2025-03-16T09:32:01.484Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.484Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":".btn"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:01.487Z INFO webdriver: BIDI RESULT {"id":126,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.183","type":"node","value":{"attributes":{"class":"btn","type":"submit"},"childNodeCount":1,"localName":"button","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.488Z INFO webdriver: COMMAND elementClick("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.183")
+[0-0] 2025-03-16T09:32:01.489Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.183/click
+[0-0] 2025-03-16T09:32:01.527Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.527Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#successMessage"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:01.530Z INFO webdriver: BIDI RESULT {"id":127,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.184","type":"node","value":{"attributes":{"class":"success-message hidden","id":"successMessage"},"childNodeCount":1,"localName":"div","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.531Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[194 bytes] checkVisibility>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.184"},{"type":"object","value":[["withinViewport",{"type":"boolean","value":false}],["contentVisibilityAuto",{"type":"boolean","value":true}],["opacityProperty",{"type":"boolean","value":true}],["visibilityProperty",{"type":"boolean","value":true}]]}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:01.532Z INFO webdriver: COMMAND getElementCSSValue("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.184", "display")
+[0-0] 2025-03-16T09:32:01.532Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.184/css/display
+[0-0] 2025-03-16T09:32:01.538Z INFO webdriver: RESULT block
+[0-0] 2025-03-16T09:32:01.552Z INFO webdriver: BIDI RESULT {"id":128,"result":{"realm":"-7022791911600550571.-3586872754218400250","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:01.552Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#tableBody tr:last-child"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:01.556Z INFO webdriver: BIDI RESULT {"id":129,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.187","type":"node","value":{"attributes":{},"childNodeCount":7,"localName":"tr","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.557Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(1)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.187"}]}
+[0-0] 2025-03-16T09:32:01.560Z INFO webdriver: BIDI RESULT {"id":130,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.188","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.560Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.187"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.188"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:01.563Z INFO webdriver: BIDI RESULT {"id":131,"result":{"realm":"-7022791911600550571.-3586872754218400250","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:01.565Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.188")
+[0-0] 2025-03-16T09:32:01.565Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.188/text
+[0-0] 2025-03-16T09:32:01.572Z INFO webdriver: RESULT Marion Wuckert
+[0-0] 2025-03-16T09:32:01.572Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(2)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.187"}]}
+[0-0] 2025-03-16T09:32:01.576Z INFO webdriver: BIDI RESULT {"id":132,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.189","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.576Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.187"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.189"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:01.579Z INFO webdriver: BIDI RESULT {"id":133,"result":{"realm":"-7022791911600550571.-3586872754218400250","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:01.581Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.189")
+[0-0] 2025-03-16T09:32:01.581Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.189/text
+[0-0] 2025-03-16T09:32:01.587Z INFO webdriver: RESULT Marina.Rowe@hotmail.com
+[0-0] 2025-03-16T09:32:01.587Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(3)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.187"}]}
+[0-0] 2025-03-16T09:32:01.590Z INFO webdriver: BIDI RESULT {"id":134,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.190","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.591Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.187"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.190"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:01.594Z INFO webdriver: BIDI RESULT {"id":135,"result":{"realm":"-7022791911600550571.-3586872754218400250","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:01.595Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.190")
+[0-0] 2025-03-16T09:32:01.595Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.840D4219DD2771E20CF25AF1022F0B15.e.190/text
+[0-0] 2025-03-16T09:32:01.601Z INFO webdriver: RESULT Czechia
+[0-0] 2025-03-16T09:32:01.602Z INFO webdriver: BIDI COMMAND browsingContext.navigate {"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","url":"http://localhost:3000","wait":"complete"}
+[0-0] 2025-03-16T09:32:01.616Z INFO webdriver: BIDI RESULT {"id":136,"result":{"navigation":"2d3a35e1-1e30-4394-a004-e4c7b7304ec7","url":"http://localhost:3000/"},"type":"success"}
+[0-0] 2025-03-16T09:32:01.617Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#name"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:01.620Z INFO webdriver: BIDI RESULT {"id":137,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.192","type":"node","value":{"attributes":{"id":"name","name":"name","required":"","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.196","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.621Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.192")
+[0-0] 2025-03-16T09:32:01.621Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.192/clear
+[0-0] 2025-03-16T09:32:01.640Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.640Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.192", "Juana Bashirian")
+[0-0] 2025-03-16T09:32:01.640Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.192/value
+[0-0] 2025-03-16T09:32:01.640Z INFO webdriver: DATA { text: 'Juana Bashirian' }
+[0-0] 2025-03-16T09:32:01.674Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.674Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#email"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:01.677Z INFO webdriver: BIDI RESULT {"id":138,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.193","type":"node","value":{"attributes":{"id":"email","name":"email","required":"","type":"email"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.202","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.678Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.193")
+[0-0] 2025-03-16T09:32:01.678Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.193/clear
+[0-0] 2025-03-16T09:32:01.696Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.696Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.193", "Patience28@hotmail.com")
+[0-0] 2025-03-16T09:32:01.697Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.193/value
+[0-0] 2025-03-16T09:32:01.697Z INFO webdriver: DATA { text: 'Patience28@hotmail.com' }
+[0-0] 2025-03-16T09:32:01.733Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.734Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#country"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:01.736Z INFO webdriver: BIDI RESULT {"id":139,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.194","type":"node","value":{"attributes":{"id":"country","name":"country","required":"","type":"text"},"childNodeCount":0,"localName":"input","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.203","type":"node","value":{"childNodeCount":1,"mode":"closed","nodeType":11}}}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.738Z INFO webdriver: COMMAND elementClear("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.194")
+[0-0] 2025-03-16T09:32:01.738Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.194/clear
+[0-0] 2025-03-16T09:32:01.757Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.757Z INFO webdriver: COMMAND elementSendKeys("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.194", "<Screenshot[base64]>")
+[0-0] 2025-03-16T09:32:01.757Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.194/value
+[0-0] 2025-03-16T09:32:01.757Z INFO webdriver: DATA { text: 'Iraq' }
+[0-0] 2025-03-16T09:32:01.788Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.789Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":".btn"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:01.792Z INFO webdriver: BIDI RESULT {"id":140,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.204","type":"node","value":{"attributes":{"class":"btn","type":"submit"},"childNodeCount":1,"localName":"button","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.793Z INFO webdriver: COMMAND elementClick("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.204")
+[0-0] 2025-03-16T09:32:01.793Z INFO webdriver: [POST] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.204/click
+[0-0] 2025-03-16T09:32:01.833Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.834Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#successMessage"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:01.837Z INFO webdriver: BIDI RESULT {"id":141,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.205","type":"node","value":{"attributes":{"class":"success-message","id":"successMessage"},"childNodeCount":1,"localName":"div","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.838Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[194 bytes] checkVisibility>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.205"},{"type":"object","value":[["withinViewport",{"type":"boolean","value":false}],["contentVisibilityAuto",{"type":"boolean","value":true}],["opacityProperty",{"type":"boolean","value":true}],["visibilityProperty",{"type":"boolean","value":true}]]}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:01.839Z INFO webdriver: COMMAND getElementCSSValue("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.205", "display")
+[0-0] 2025-03-16T09:32:01.839Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.205/css/display
+[0-0] 2025-03-16T09:32:01.845Z INFO webdriver: RESULT block
+[0-0] 2025-03-16T09:32:01.857Z INFO webdriver: BIDI RESULT {"id":142,"result":{"realm":"7788235540711637889.6275904824007993847","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:01.857Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"#tableBody tr:last-child"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}
+[0-0] 2025-03-16T09:32:01.861Z INFO webdriver: BIDI RESULT {"id":143,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.208","type":"node","value":{"attributes":{},"childNodeCount":7,"localName":"tr","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.862Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(1)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.208"}]}
+[0-0] 2025-03-16T09:32:01.865Z INFO webdriver: BIDI RESULT {"id":144,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.209","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.865Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.208"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.209"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:01.868Z INFO webdriver: BIDI RESULT {"id":145,"result":{"realm":"7788235540711637889.6275904824007993847","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:01.869Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.209")
+[0-0] 2025-03-16T09:32:01.869Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.209/text
+[0-0] 2025-03-16T09:32:01.876Z INFO webdriver: RESULT Juana Bashirian
+[0-0] 2025-03-16T09:32:01.876Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(2)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.208"}]}
+[0-0] 2025-03-16T09:32:01.880Z INFO webdriver: BIDI RESULT {"id":146,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.210","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.880Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.208"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.210"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:01.883Z INFO webdriver: BIDI RESULT {"id":147,"result":{"realm":"7788235540711637889.6275904824007993847","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:01.884Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.210")
+[0-0] 2025-03-16T09:32:01.884Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.210/text
+[0-0] 2025-03-16T09:32:01.890Z INFO webdriver: RESULT Patience28@hotmail.com
+[0-0] 2025-03-16T09:32:01.890Z INFO webdriver: BIDI COMMAND browsingContext.locateNodes {"locator":{"type":"css","value":"td:nth-child(3)"},"context":"D50F82C5B0BC134D3D1BFEA664BD03D0","startNodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.208"}]}
+[0-0] 2025-03-16T09:32:01.893Z INFO webdriver: BIDI RESULT {"id":148,"result":{"nodes":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.211","type":"node","value":{"attributes":{},"childNodeCount":1,"localName":"td","namespaceURI":"http://www.w3.org/1999/xhtml","nodeType":1,"shadowRoot":null}}]},"type":"success"}
+[0-0] 2025-03-16T09:32:01.893Z INFO webdriver: BIDI COMMAND script.callFunction {"functionDeclaration":"<Function[658 bytes] elementContains>","awaitPromise":true,"arguments":[{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.208"},{"sharedId":"f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.211"}],"target":{"context":"D50F82C5B0BC134D3D1BFEA664BD03D0"}}
+[0-0] 2025-03-16T09:32:01.896Z INFO webdriver: BIDI RESULT {"id":149,"result":{"realm":"7788235540711637889.6275904824007993847","result":{"type":"boolean","value":true},"type":"success"},"type":"success"}
+[0-0] 2025-03-16T09:32:01.897Z INFO webdriver: COMMAND getElementText("f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.211")
+[0-0] 2025-03-16T09:32:01.897Z INFO webdriver: [GET] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34/element/f.D50F82C5B0BC134D3D1BFEA664BD03D0.d.D94551BB8495E2218C2D78B33BB729C7.e.211/text
+[0-0] 2025-03-16T09:32:01.904Z INFO webdriver: RESULT Iraq
+[0-0] 2025-03-16T09:32:01.905Z INFO webdriver: COMMAND deleteSession()
+[0-0] 2025-03-16T09:32:01.906Z INFO webdriver: [DELETE] http://localhost:56338/session/9ac50c4c8d7f1739f9815da96d86bd34
+[0-0] 2025-03-16T09:32:01.934Z INFO webdriver: RESULT null
+[0-0] 2025-03-16T09:32:01.935Z INFO webdriver: Close Bidi connection to ws://127.0.0.1:56338/session/9ac50c4c8d7f1739f9815da96d86bd34
+[0-0] 2025-03-16T09:32:01.935Z INFO webdriver: Kill driver process with PID 29608
+[0-0] PASSED in chrome - file:///D:/playground-code/rnd-cypress-wdio-pw/wdio/test/specs/ui.spec.js
+2025-03-16T09:32:02.064Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+
+ "spec" Reporter:
+------------------------------------------------------------------
+[chrome 134.0.6998.89 windows #0-0] Running: chrome (v134.0.6998.89) on windows
+[chrome 134.0.6998.89 windows #0-0] Session ID: 9ac50c4c8d7f1739f9815da96d86bd34
+[chrome 134.0.6998.89 windows #0-0]
+[chrome 134.0.6998.89 windows #0-0] » \test\specs\ui.spec.js
+[chrome 134.0.6998.89 windows #0-0] User Registration Form
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully submit registration form multiple times 1
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully submit registration form multiple times 2
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully submit registration form multiple times 3
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully submit registration form multiple times 4
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully submit registration form multiple times 5
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully submit registration form multiple times 6
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully submit registration form multiple times 7
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully submit registration form multiple times 8
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully submit registration form multiple times 9
+[chrome 134.0.6998.89 windows #0-0]    ✓ should successfully submit registration form multiple times 10
+[chrome 134.0.6998.89 windows #0-0]
+[chrome 134.0.6998.89 windows #0-0] 10 passing (3.3s)
+
+
+Spec Files:	 1 passed, 1 total (100% completed) in 00:00:06  
+
+2025-03-16T09:32:02.065Z INFO @wdio/local-runner: Shutting down spawned worker
+2025-03-16T09:32:02.320Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
+2025-03-16T09:32:02.321Z INFO @wdio/local-runner: shutting down
+2025-03-16T09:32:02.321Z INFO @wdio/cli:launcher: Run onComplete hook
+Test completed at: 2025-03-16 16:32:02
+Test duration: 10 seconds
+Test duration: 0h 0m 10s
+Reset database
