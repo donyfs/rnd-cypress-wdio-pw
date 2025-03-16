@@ -4,6 +4,7 @@
   "description": "simple automation testing using cypress",
   "main": "index.js",
   "dependencies": {
+    "@faker-js/faker": "^9.6.0",
     "cypress": "^14.2.0"
   },
   "scripts": {
